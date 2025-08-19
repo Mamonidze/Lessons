@@ -11,7 +11,21 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/LC_Conca.94FA1CD6.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/LC_Conca.94FA1CD6.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/LC_ConcatenationOfArray.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/LC_ConcatenationOfArray.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/LC_ConcatenationOfArray.obj" beforeDir="false" afterPath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/LC_ConcatenationOfArray.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LC_ConcatenationOfArray/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/x64/Debug/LC_CountPairsWhoseSumisLessthanTarget.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/x64/Debug/LC_CountPairsWhoseSumisLessthanTarget.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/x64/Debug/LC_CountPairsWhoseSumisLessthanTarget.obj" beforeDir="false" afterPath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/x64/Debug/LC_CountPairsWhoseSumisLessthanTarget.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/LC_ConcatenationOfArray.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/LC_ConcatenationOfArray.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/LC_ConcatenationOfArray.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/LC_ConcatenationOfArray.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/LC_CountPairsWhoseSumisLessthanTarget.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/LC_CountPairsWhoseSumisLessthanTarget.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/LC_CountPairsWhoseSumisLessthanTarget.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/LC_CountPairsWhoseSumisLessthanTarget.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +66,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "C/C++ Project.LC_ConcatenationOfArray.executor": "Run",
+    "C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor": "Run",
     "C/C++ Project.LC_ShuffleTheArray.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,7 +82,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget">
+  <component name="RunManager" selected="C/C++ Project.LC_ConcatenationOfArray">
     <configuration name="LC_ConcatenationOfArray" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -141,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755581529231</updated>
-      <workItem from="1755581530647" duration="2537000" />
+      <workItem from="1755581530647" duration="4500000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -159,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755582085660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LC_03">
+      <option name="closed" value="true" />
+      <created>1755588152871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755588152872</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +194,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="LC 01-02" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="LC_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC_03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

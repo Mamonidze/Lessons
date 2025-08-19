@@ -27,7 +27,7 @@ int main()
     int count{};
     for (size_t i = 0; i < nums.size(); i++)
     {
-        for (size_t j = 0; j < nums.size(); j++)
+        for (size_t j = i+1; j < nums.size(); j++)
         {
             if (i < j && nums[i] + nums[j] < target)
                 count++;

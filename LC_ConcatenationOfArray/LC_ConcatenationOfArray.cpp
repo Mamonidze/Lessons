@@ -39,17 +39,13 @@ int main()
 //concatenation fuction
 std::vector<int> getConcatenation(std::vector<int>& nums)
 {
-    std::vector<int> newVector{};
-    newVector.reserve(nums.size()*2); //reserve capacity since we know a length of the future vector
+    std::vector<int> newVector(nums.size()*2);
 
-    for (auto num : nums) //could be a while loop, but not sure if it's better
+
+    for (size_t i = 0; i < nums.size(); i++)
     {
-        newVector.push_back(num);
+        newVector[i] = nums[i];
+        newVector[i + nums.size()] = nums[i];
     }
-    for (auto num : nums)
-    {
-        newVector.push_back(num);
-    }
-    
     return newVector;
 }

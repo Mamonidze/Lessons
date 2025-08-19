@@ -44,8 +44,8 @@ std::vector<int> getConcatenation(std::vector<int>& nums)
 
     for (size_t i = 0; i < nums.size(); i++)
     {
-        newVector[i] = nums[i];
-        newVector[i + nums.size()] = nums[i];
+        newVector[i] = nums[i]; 
+        newVector[i + nums.size()] = nums[i]; 
     }
     return newVector;
 }

@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LC_ShuffleTheArray", "LC_Sh
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LC_CountPairsWhoseSumisLessthanTarget", "LC_CountPairsWhoseSumisLessthanTarget\LC_CountPairsWhoseSumisLessthanTarget.vcxproj", "{B76FC79F-5DC7-4187-ABE0-9B98C05CB708}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LC_Richest Customer Wealth", "LC_Richest Customer Wealth\LC_Richest Customer Wealth.vcxproj", "{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -42,10 +44,19 @@ Global
 		{B76FC79F-5DC7-4187-ABE0-9B98C05CB708}.Release|Win32.Build.0 = Release|Win32
 		{B76FC79F-5DC7-4187-ABE0-9B98C05CB708}.Release|x64.ActiveCfg = Release|x64
 		{B76FC79F-5DC7-4187-ABE0-9B98C05CB708}.Release|x64.Build.0 = Release|x64
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}.Debug|Win32.Build.0 = Debug|Win32
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}.Debug|x64.ActiveCfg = Debug|x64
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}.Debug|x64.Build.0 = Debug|x64
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}.Release|Win32.ActiveCfg = Release|Win32
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}.Release|Win32.Build.0 = Release|Win32
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}.Release|x64.ActiveCfg = Release|x64
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{94FA1CD6-5E15-4D3B-A457-86F48CBC6E11} = {AAE6DBA0-AF64-4E48-BAB0-02486943E438}
 		{2F484A1E-1417-4072-B69C-9AFBA7725037} = {AAE6DBA0-AF64-4E48-BAB0-02486943E438}
 		{B76FC79F-5DC7-4187-ABE0-9B98C05CB708} = {AAE6DBA0-AF64-4E48-BAB0-02486943E438}
+		{F6234C80-DA7A-44A3-9DE2-2D673FC8880E} = {AAE6DBA0-AF64-4E48-BAB0-02486943E438}
 	EndGlobalSection
 EndGlobal

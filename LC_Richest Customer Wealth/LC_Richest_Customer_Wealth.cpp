@@ -4,7 +4,7 @@
 
 int main()
 {
-   const std::vector<std::vector<int>>& accounts{{1,6},{7,3}, {3,5}};
+    const std::vector<std::vector<int>>& accounts{{1,6},{7,3}, {3,5}};
 
     int MaxWealth{};
     int Count{};
@@ -18,7 +18,6 @@ int main()
         MaxWealth = std::max(Count, MaxWealth);
         Count = 0;
     }
-   std::cout << MaxWealth;
+    std::cout << MaxWealth;
     return 0;
 }
-

@@ -17,7 +17,23 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/RoundToInt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/RoundToInt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.obj" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/Cl.items.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/RoundToInt.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/RoundToInt.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.secondary.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/RoundToInt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/RoundToInt.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/RoundToInt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/RoundToInt.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +52,12 @@
     &quot;assignee&quot;: &quot;Mamonidze&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Mamonidze/Lessons&quot;,
-    &quot;accountId&quot;: &quot;74bc643e-b8f1-47b9-944d-c4fc25c639ac&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Mamonidze/Lessons.git",
+    "accountId": "2b0717d8-62bd-46cb-8e96-ca63f230452d"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -76,6 +92,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C++ Project.RoundToInt.executor": "Run",
     "C/C++ Project.CastOptions.executor": "Run",
     "C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor": "Run",
     "C/C++ Project.LC_ConcatenationOfArray.executor": "Run",
@@ -100,11 +117,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ Project.RoundToInt">
+  <component name="RunManager" selected="C++ Project.RoundToInt">
     <configuration name="CastOptions" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/CastOptions/CastOptions.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -112,19 +130,18 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/CastOptions/CastOptions.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/CastOptions/CastOptions.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/CastOptions/CastOptions.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ CheckIfTwoStringArraysareEquivalent" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -132,19 +149,18 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ConcatenationOfArray" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -152,19 +168,18 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_CountPairsWhoseSumisLessthanTarget" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -172,19 +187,18 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_IntersectionofTwoArrays" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -192,19 +206,18 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_Richest Customer Wealth" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -212,19 +225,18 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ShuffleTheArray" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -232,19 +244,18 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_SmallestIndexWithEqualValue" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -252,19 +263,18 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="RoundToInt" type="CppProject" factoryName="C++ Project">
-      <configuration_1 setup="1">
+      <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/RoundToInt/RoundToInt.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -272,27 +282,26 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/RoundToInt/RoundToInt.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/RoundToInt/RoundToInt.vcxproj" />
-      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/RoundToInt/RoundToInt.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ Project.CastOptions" />
-      <item itemvalue="C/C++ Project.RoundToInt" />
-      <item itemvalue="C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent" />
-      <item itemvalue="C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget" />
-      <item itemvalue="C/C++ Project.LC_IntersectionofTwoArrays" />
-      <item itemvalue="C/C++ Project.LC_Richest Customer Wealth" />
-      <item itemvalue="C/C++ Project.LC_SmallestIndexWithEqualValue" />
-      <item itemvalue="C/C++ Project.LC_ShuffleTheArray" />
-      <item itemvalue="C/C++ Project.LC_ConcatenationOfArray" />
+      <item itemvalue="C++ Project.CastOptions" />
+      <item itemvalue="C++ Project.LC_ CheckIfTwoStringArraysareEquivalent" />
+      <item itemvalue="C++ Project.LC_ConcatenationOfArray" />
+      <item itemvalue="C++ Project.LC_CountPairsWhoseSumisLessthanTarget" />
+      <item itemvalue="C++ Project.LC_IntersectionofTwoArrays" />
+      <item itemvalue="C++ Project.LC_Richest Customer Wealth" />
+      <item itemvalue="C++ Project.LC_ShuffleTheArray" />
+      <item itemvalue="C++ Project.LC_SmallestIndexWithEqualValue" />
+      <item itemvalue="C++ Project.RoundToInt" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="" />
@@ -304,6 +313,7 @@
       <workItem from="1755678055146" duration="2007000" />
       <workItem from="1755680110139" duration="7799000" />
       <workItem from="1755688387701" duration="88000" />
+      <workItem from="1755709416602" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -388,24 +398,6 @@
     <MESSAGE value="LC-06" />
     <MESSAGE value="LC-07" />
     <option name="LAST_COMMIT_MESSAGE" value="LC-07" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

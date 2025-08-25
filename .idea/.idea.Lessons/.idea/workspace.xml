@@ -17,7 +17,15 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/RoundToInt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/RoundToInt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.obj" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/RoundToInt.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundToInt/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RoundToInt/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/RoundToInt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/RoundToInt.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/RoundToInt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/RoundToInt.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +51,9 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/include/vector" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/CPP_Lessons/Lessons/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -303,7 +294,7 @@
       <workItem from="1755581530647" duration="17733000" />
       <workItem from="1755678055146" duration="2007000" />
       <workItem from="1755680110139" duration="7799000" />
-      <workItem from="1755688387701" duration="88000" />
+      <workItem from="1755688387701" duration="4370000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -369,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755603379478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="RoundToInt and Unfinished Casts">
+      <option name="closed" value="true" />
+      <created>1755688747885</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755688747885</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +386,8 @@
     <MESSAGE value="LC-05" />
     <MESSAGE value="LC-06" />
     <MESSAGE value="LC-07" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC-07" />
+    <MESSAGE value="RoundToInt and Unfinished Casts" />
+    <option name="LAST_COMMIT_MESSAGE" value="RoundToInt and Unfinished Casts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

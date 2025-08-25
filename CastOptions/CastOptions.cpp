@@ -10,32 +10,57 @@
  */
 
 
+#include <assert.h>
 #include <iostream>
+#include <ppltasks.h>
+#include <__msvc_ostream.hpp>
 
-double StaticCastFunc_two_int(int a, int b)
+void print (char* str)
 {
-    return static_cast<double> (a)/b; //без каста мы бы потеряли значения после плавающей точки, т.к. делим 2 инта
+    std::cout << str;
 }
-
-
-
+void print2 (const int* a)
+{
+    std::cout << a;
+}
 
 int main()
 {
     //static_cast
-    int a {10};
-    int b {3};
-    std::cout << StaticCastFunc_two_int(a, b) << " - #1 Static Cast Example" << '\n';
+    double a{1.124};
+    int b = static_cast<int>(a);
 
-    //const_cast
-    int c {4}; //переменная без консты
-    const int& d {c}; //конста - ссылка на с?
-    const_cast<int&>(d) = 5; //кастуем конст в д, снимаем конст и изменяем значение с по ссылке
-    std::cout << c << '\n'; //выводим с
+    class Main{}; //основной класс
+    class Inherited : public Main{}; //класс, наследуемый от основного
+
+    Inherited* pointer = new Inherited(); 
+    Main* pointer2 = static_cast<Main*>(pointer); //кастуем вверх по иерархии - из дочки в родителя
+
 
     //dynamic_cast
+    Main Parent{};
+    Main* pParent;
+    Inherited Child{};
+    Inherited* pChild{};
+    pParent = dynamic_cast<Main*>(&Child);
     
-    return 0;
+
+    
+    //const_cast
+    const char* c = "hello world";
+    print(const_cast<char*>(c)); //принудительно передаем в функцию константу, хотя она принимает не конст
+
+    int m{};
+    std::cin >> m;
+    print2(const_cast<int*>(&m)); //выдаем константу
+
+
+    //reinterpret_cast
+    int x {65};
+    int* px = &x;
+    char* pc = reinterpret_cast<char*>(px);
+    std::cout << *pc;
+    
 }
 
 

@@ -10,6 +10,7 @@
     <projectFile>LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj</projectFile>
     <projectFile>Lessons/Lessons.vcxproj</projectFile>
     <projectFile>MyClasses/MyClasses.vcxproj</projectFile>
+    <projectFile>MyString/MyString.vcxproj</projectFile>
     <projectFile>RoundToInt/RoundToInt.vcxproj</projectFile>
   </component>
   <component name="AutoImportSettings">
@@ -18,13 +19,11 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyClasses/MyClasses.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyClasses/MyClasses.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyClasses/x64/Debug/MyClasses.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/MyClasses/x64/Debug/MyClasses.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyClasses/x64/Debug/MyClasses.obj" beforeDir="false" afterPath="$PROJECT_DIR$/MyClasses/x64/Debug/MyClasses.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyClasses/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/MyClasses/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyClasses/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyClasses/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/MyClasses.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyClasses.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/MyClasses.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyClasses.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MyVector.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyVector.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MyVector.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyVector.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +113,7 @@
     <setting file="file://C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/include/vector" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyVector/MyVector.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -137,6 +137,7 @@
     &quot;C/C++ Project.LC_ShuffleTheArray.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ Project.LC_SmallestIndexWithEqualValue.executor&quot;: &quot;Debug&quot;,
     &quot;C/C++ Project.MyClasses.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.MyString.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -153,7 +154,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C/C++ Project.MyClasses">
+  <component name="RunManager" selected="C/C++ Project.MyString">
     <configuration name="CastOptions" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -334,6 +335,26 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="MyString" type="CppProject" factoryName="C++ Project">
+      <configuration_1 setup="1">
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="x64" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyString/MyString.vcxproj" />
+      </configuration_1>
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/MyString/MyString.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyString/MyString.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="RoundToInt" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -355,6 +376,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ Project.MyString" />
       <item itemvalue="C/C++ Project.MyClasses" />
       <item itemvalue="C/C++ Project.CastOptions" />
       <item itemvalue="C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent" />
@@ -382,7 +404,7 @@
       <workItem from="1755709416602" duration="496000" />
       <workItem from="1756276361070" duration="15618000" />
       <workItem from="1756447040906" duration="1345000" />
-      <workItem from="1756448424553" duration="4684000" />
+      <workItem from="1756448424553" duration="8741000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -456,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756302500886</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="MyVector">
+      <option name="closed" value="true" />
+      <created>1756453340682</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756453340682</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +516,8 @@
     <MESSAGE value="LC-06" />
     <MESSAGE value="LC-07" />
     <MESSAGE value="Started Vector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Vector" />
+    <MESSAGE value="MyVector" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyVector" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

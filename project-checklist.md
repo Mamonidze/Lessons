@@ -2,7 +2,7 @@
 - [x] std::vector - конструктор от размера (std::vector(10))
 - [x] std::vector - дефолтный деструктор
 - [x] std::vector - operator []
-- [ ] std::vector - push_back
-- [ ] std::vector - pop back
-- [ ] std::vector - insert
-- [ ] std::vector - remove
+- [x] std::vector - push_back
+- [x] std::vector - pop back
+- [x] std::vector - insert
+- [x] std::vector - remove

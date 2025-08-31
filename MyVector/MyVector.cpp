@@ -5,12 +5,11 @@ class MyVector
 {
 private:
     int* data; //указатель на первый элемент динамического массива
-    int* new_data;
     size_t size; //текущий размер динамического массива
     size_t capacity; //текущая емкость динамического массива
     
 public:
-    MyVector() { std::cout << "Default constructor" << '\n';}//дефолтный конструктор
+    MyVector();//дефолтный конструктор
 
     
     MyVector(size_t n) : size(n), capacity(n) //конструктор по размеру со списком инициализации
@@ -21,10 +20,6 @@ public:
             data[i] = 0; //заполняем нулями
             std::cout << data[i] << ' ';
         }
-        std::cout << "N based constructor" << '\n';
-        std::cout << "Array size: " << size << '\n' ;
-        std::cout << "Array capacity: " << capacity << '\n' ;
-        
     }
     
 
@@ -32,14 +27,19 @@ public:
     {
         return data[index];
     }
+    int& operator[](size_t index) const //перегрузка оператора []
+    {
+        return data[index];
+    }
+
+    
 
     
     void push_back(int element)
     {
+        int* new_data;
         if (size == capacity)
         {
-            std::cout << "Size = Capacity" << '\n'; //debug message
-            
             size_t new_capacity = capacity * 2; // новый капасити
             
             new_data = new int[new_capacity]; //создаем новый массив в который будем копировать с капасити х2
@@ -78,9 +78,10 @@ public:
     
     void insert(size_t position, int element)
     {
+        int* new_data;
+
         if (size == capacity || position >= capacity)
         {
-            std::cout << "Size == Capacity" << '\n';
             size_t new_capacity = capacity * 2;
             new_data = new int[new_capacity]; //создаем новый массив в который будем копировать с капасити х2
             for (size_t i = 0; i < size; i++)
@@ -123,14 +124,17 @@ public:
         }
     }
     
-
-    
-    
+    friend std::ostream& operator<<(std::ostream& os, const std::ostream& obj);
     ~MyVector() {delete[] data;
-        std::cout << "Destructor called" << '\n';
     } //дефолтный деструктор. Не забываем очищать память через delete
 };
 
+
+std::ostream& operator<<(std::ostream& os, const MyVector& obj)
+{
+    os << "MyClass(" << obj << ")";
+    return os;
+}
 
 int main()
 {
@@ -162,6 +166,8 @@ int main()
     //проверка erase
     Vector4.erase(3);
     std::cout << '\n';
+
+    std::cout << Vector3 << '\n';
     
     //тут вызываются деструкторы
     return 0; 

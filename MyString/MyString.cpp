@@ -4,12 +4,19 @@
 class MyString
 {
 private:
-    char* data;
+    char* data; //указатель на динамический массив
+    size_t length{};
+
+    
     
 public:
 
     MyString() { std::cout << "Default constructor" << '\n';}  //default constructor
 
+    MyString(const char* s)
+    {
+        
+    }
     
 
 

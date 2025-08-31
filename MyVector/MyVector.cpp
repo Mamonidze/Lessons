@@ -4,15 +4,17 @@
 class MyVector
 {
 private:
-    int* data; //указатель на первый элемент динамического массива
+     int* data;//указатель на первый элемент динамического массива
     size_t size; //текущий размер динамического массива
     size_t capacity; //текущая емкость динамического массива
     
 public:
-    MyVector();//дефолтный конструктор
+    MyVector(){data = nullptr;
+        size = 0;
+        capacity = 0;}//дефолтный конструктор
 
     
-    MyVector(size_t n) : size(n), capacity(n) //конструктор по размеру со списком инициализации
+    MyVector(const size_t n) : size(n), capacity(n) //конструктор по размеру со списком инициализации
     {
         data = new int[n]; //выделяем память для динамического массива по указателю
         for (size_t i = 0; i < n; i++) 
@@ -37,9 +39,9 @@ public:
     
     void push_back(int element)
     {
-        int* new_data;
         if (size == capacity)
         {
+            int* new_data;
             size_t new_capacity = capacity * 2; // новый капасити
             
             new_data = new int[new_capacity]; //создаем новый массив в который будем копировать с капасити х2
@@ -78,10 +80,15 @@ public:
     
     void insert(size_t position, int element)
     {
-        int* new_data;
+        if (position > size)
+        {
+            std::cout << "Position out of range";
+        }
 
         if (size == capacity || position >= capacity)
         {
+            int* new_data;
+
             size_t new_capacity = capacity * 2;
             new_data = new int[new_capacity]; //создаем новый массив в который будем копировать с капасити х2
             for (size_t i = 0; i < size; i++)
@@ -98,7 +105,7 @@ public:
         }
         data[position] = element;
         size++;
-
+        
         for (size_t i = 0; i < size; ++i)
         {
             std::cout << data[i] << ' ' ;
@@ -123,18 +130,25 @@ public:
             std::cout << data[i] << ' ' ;
         }
     }
+
+    friend std::ostream& operator<<(std::ostream& os, const MyVector& vec);
     
-    friend std::ostream& operator<<(std::ostream& os, const std::ostream& obj);
     ~MyVector() {delete[] data;
     } //дефолтный деструктор. Не забываем очищать память через delete
 };
 
 
-std::ostream& operator<<(std::ostream& os, const MyVector& obj)
-{
-    os << "MyClass(" << obj << ")";
-    return os;
+ std::ostream& operator<<(std::ostream& os, const MyVector& vec)
+ {
+     for (size_t i = 0; i < vec.size; ++i)
+     {
+         os << vec.data[i] << ' ';
+     }
+     return os;
 }
+
+
+
 
 int main()
 {
@@ -163,12 +177,14 @@ int main()
     Vector4.insert(3,7);
     std::cout << '\n';
 
+    Vector4.insert(7,3);
+    std::cout << '\n';
+    
     //проверка erase
     Vector4.erase(3);
     std::cout << '\n';
 
-    std::cout << Vector3 << '\n';
-    
+    std::cout << "Eto vector 2 " << Vector2 << '\n';
     //тут вызываются деструкторы
     return 0; 
     

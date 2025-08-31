@@ -20,7 +20,44 @@
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyString/MyString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/MyString.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.obj" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/MyString.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/MyString.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link-rc.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link-rc.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.read.2.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.read.3.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.read.4.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/vc143.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyVector/MyVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/MyVector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.obj" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/Cl.items.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link-cvtres.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link-cvtres.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link-rc.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link-rc.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.read.2.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.secondary.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MyString.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyString.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/MyVector.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyVector.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,66 +85,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/include/type_traits" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/include/vector" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyVector/MyVector.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -121,37 +99,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.CastOptions.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ConcatenationOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_IntersectionofTwoArrays.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_Richest Customer Wealth.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ShuffleTheArray.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_SmallestIndexWithEqualValue.executor&quot;: &quot;Debug&quot;,
-    &quot;C/C++ Project.MyClasses.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.MyString.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CppShadersOptionsId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C++ Project.MyString.executor": "Run",
+    "C++ Project.MyVector.executor": "Run",
+    "C++ Project.RoundToInt.executor": "Run",
+    "C/C++ Project.CastOptions.executor": "Run",
+    "C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor": "Run",
+    "C/C++ Project.LC_ConcatenationOfArray.executor": "Run",
+    "C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor": "Run",
+    "C/C++ Project.LC_IntersectionofTwoArrays.executor": "Run",
+    "C/C++ Project.LC_Richest Customer Wealth.executor": "Run",
+    "C/C++ Project.LC_ShuffleTheArray.executor": "Run",
+    "C/C++ Project.LC_SmallestIndexWithEqualValue.executor": "Debug",
+    "C/C++ Project.MyClasses.executor": "Run",
+    "C/C++ Project.MyString.executor": "Run",
+    "C/C++ Project.RoundToInt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CppShadersOptionsId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="C++ Project.CastOptions">
+}]]></component>
+  <component name="RunManager" selected="C++ Project.MyString">
     <configuration name="CastOptions" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
@@ -342,6 +322,25 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="MyVector" type="CppProject" factoryName="C++ Project">
+      <configuration_1>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyVector/MyVector.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(TargetPath)" />
+        <option name="PROGRAM_PARAMETERS" value="" />
+        <option name="WORKING_DIRECTORY" value="$(ProjectDir)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_1>
+      <option name="DEFAULT_PROJECT_PATH" value="" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="RoundToInt" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
@@ -363,6 +362,7 @@
     </configuration>
     <list>
       <item itemvalue="C++ Project.CastOptions" />
+      <item itemvalue="C++ Project.MyVector" />
       <item itemvalue="C++ Project.LC_ CheckIfTwoStringArraysareEquivalent" />
       <item itemvalue="C++ Project.LC_ConcatenationOfArray" />
       <item itemvalue="C++ Project.LC_CountPairsWhoseSumisLessthanTarget" />
@@ -392,6 +392,7 @@
       <workItem from="1756447040906" duration="1345000" />
       <workItem from="1756448424553" duration="8741000" />
       <workItem from="1756574474131" duration="278000" />
+      <workItem from="1756624359963" duration="7363000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -505,6 +506,17 @@
     <MESSAGE value="Started Vector" />
     <MESSAGE value="MyVector" />
     <option name="LAST_COMMIT_MESSAGE" value="MyVector" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/MyString/MyString.cpp</url>
+          <line>117</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

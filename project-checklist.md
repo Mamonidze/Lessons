@@ -1,8 +1,9 @@
-- [x] std::vector - дефолтный конструктор
-- [x] std::vector - конструктор от размера (std::vector(10))
-- [x] std::vector - дефолтный деструктор
-- [x] std::vector - operator []
-- [x] std::vector - push_back
-- [x] std::vector - pop back
-- [x] std::vector - insert
-- [x] std::vector - remove
+- [x] Конструктор дефолтный
+- [x] Контруктор от размера
+- [x] оператор [] (проверка на индекс)
+- [x] оператор [] const
+- [x] push_back
+- [x] pop_back
+- [x] insert (pos > size)(index > capacity)
+- [ ] erase
+- [ ] оператор <<

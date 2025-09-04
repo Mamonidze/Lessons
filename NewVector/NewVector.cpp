@@ -60,12 +60,6 @@ public:
         }
         data[size] = x; //add new element at the end of   
         size++; // increase size
-
-        for (size_t i = 0; i < size; ++i)
-        {
-            std::cout << data[i] << ' '; //DEBUG
-        }
-        std::cout << '\n';//DEBUG
     }
 
     void pop_back()
@@ -74,11 +68,6 @@ public:
         {
             data[size] = 0;
             size--;
-
-            for (size_t i = 0; i < size; ++i)
-            {
-                std::cout << data[i] << ' '; //DEBUG
-            }
         }
     }
 
@@ -107,13 +96,6 @@ public:
         }
         data[position] = element;
         size++;
-        
-        for (size_t i = 0; i < size; ++i)
-        {
-            std::cout << data[i] << ' ' ; // DEBUG
-        }
-        std::cout << "Size: " << size << '\n';
-        std::cout << "Capacity " << capacity << '\n';
     }
 
     void erase(size_t position)
@@ -127,14 +109,19 @@ public:
             data[i] = data[i+1];
         }
         size--;
-
-        for (size_t i = 0; i < size; ++i)
-        {
-            std::cout << data[i] << ' ' ;
-        }
     }
-    
+
+    friend std::ostream& operator<<(std::ostream& os, const NewVector& vec); //friend of <<
 };
+
+std::ostream& operator<<(std::ostream& os, const NewVector& vec) // << overload
+{
+    for (size_t i = 0; i < vec.size; i++)
+    {
+        os << vec.data[i] << ' ';
+    }
+    return os;
+}
 
 
 int main()
@@ -179,6 +166,9 @@ int main()
     {
         std::cout << "Error: " << e.what() << '\n';
     }
+
+    NewVector Vector_Output(5);
+    std::cout << "Vector output" << Vector_Output << '\n';
 
     return 0;
 }

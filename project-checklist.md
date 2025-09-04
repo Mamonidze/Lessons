@@ -5,5 +5,5 @@
 - [x] push_back
 - [x] pop_back
 - [x] insert (pos > size)(index > capacity)
-- [ ] erase
+- [x] erase
 - [ ] оператор <<

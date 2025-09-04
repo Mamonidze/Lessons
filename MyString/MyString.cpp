@@ -4,19 +4,23 @@
 class MyString
 {
 private:
-    char* data; //указатель на динамический массив
-    size_t length{};
+    char* data;
+    size_t size{};
 
     
     
 public:
 
-    MyString() {data = nullptr; std::cout << "Default constructor" << '\n';}  //default constructor
-
-    MyString(const char* s): length(strlen(s))
+    MyString() // default constructor
     {
-        data = new char[length + 1];
-        for (size_t i = 0; i < length; i++)
+        data = nullptr;
+        size = 0;
+    }  
+
+    MyString(const char* s): size(strlen(s))
+    {
+        data = new char[size];
+        for (size_t i = 0; i < size; i++)
         {
             data[i] = s[i];
             std::cout << data[i];
@@ -44,7 +48,12 @@ public:
         }
     }
     
-    char& operator[](size_t index) //перегрузка оператора []
+    char& operator[](size_t index) // [] overload
+    {
+        return data[index];
+    }
+    
+    char& operator[](size_t index) const // [] overload const
     {
         return data[index];
     }
@@ -53,19 +62,16 @@ public:
     {
         if (this == &other)
         {
-            return *this; //self-assignment, чтобы если че не делать 
+            return *this; //self-assignment
         }
-        data = new char[other.length + 1];
-        for (size_t i = 0; i < other.length; i++)
+        data = new char[other.size + 1];
+        for (size_t i = 0; i < other.size; i++)
         {
             data[i] = other.data[i];
         }
         return *this;
     }
-
     
-
-
     friend MyString operator+(const MyString& main, const MyString& other);
     friend std::ostream& operator<<(std::ostream& os, const MyString& str);
     friend std::istream& operator>>(std::istream& is, MyString& str);
@@ -80,7 +86,7 @@ public:
 
 std::ostream& operator<<(std::ostream& os, const MyString& str) //output
 {
-    for (size_t i = 0; i < str.length; ++i)
+    for (size_t i = 0; i < str.size; ++i)
     {
         os << str.data[i];
     }
@@ -90,16 +96,16 @@ std::ostream& operator<<(std::ostream& os, const MyString& str) //output
 MyString operator+(const MyString& main, const MyString& other) //concatenation
 {
     MyString result;
-    result.data = new char[main.length + other.length + 1];
-    for (size_t i = 0; i < main.length; i++)
+    result.data = new char[main.size + other.size + 1];
+    for (size_t i = 0; i < main.size; i++)
     {
         result[i] = main.data[i];
     }
-    for (size_t i = 0; i < other.length; i++)
+    for (size_t i = 0; i < other.size; i++)
     {
-        result[i + main.length] = other.data[i];
+        result[i + main.size] = other.data[i];
     }
-    for (size_t i = 0; i < main.length + other.length; i++)
+    for (size_t i = 0; i < main.size + other.size; i++)
     {
         std::cout << result[i];
     }
@@ -111,9 +117,9 @@ std::istream& operator>>(std::istream& is, MyString& str)
     char buffer[1024]; //создаем какой то типа буфер, куда можем писать до 1024 символов
     std::cin >> buffer; //пишем в буфер
     delete[] str.data; // удаляем старую строку
-    str.length = strlen(buffer); //меняем сайз класса, эт важно, чтобы мусор не выдавал
-    str.data = new char[str.length + 1]; //выделяем память под новую длину
-    for (size_t i = 0; i < str.length; i++)
+    str.size = strlen(buffer); //меняем сайз класса, эт важно, чтобы мусор не выдавал
+    str.data = new char[str.size + 1]; //выделяем память под новую длину
+    for (size_t i = 0; i < str.size; i++)
     {
         str.data[i] = buffer[i]; //пишем
     }
@@ -156,8 +162,6 @@ int main()
     std::cin >> s8; //>> overload
     std::cout << s8;
 
-    
-    
     
     
     return 0;

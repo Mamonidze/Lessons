@@ -20,23 +20,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/MyVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/MyVector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.exe.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.obj" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/Cl.items.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/MyVector.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/MyVector.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.secondary.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/MyVector.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyVector/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyString/MyString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/MyString.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/NewVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/NewVector.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-checklist.md" beforeDir="false" afterPath="$PROJECT_DIR$/project-checklist.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/MyVector.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyVector.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/MyVector.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyVector.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,7 +394,7 @@
       <workItem from="1756574474131" duration="278000" />
       <workItem from="1756624359963" duration="7363000" />
       <workItem from="1756963873397" duration="857000" />
-      <workItem from="1756978814443" duration="8636000" />
+      <workItem from="1756978814443" duration="10305000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -490,7 +476,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756453340682</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Remade Vector">
+      <option name="closed" value="true" />
+      <created>1756989035116</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1756989035116</updated>
+    </task>
+    <task id="LOCAL-00012" summary="deleted debug outputs">
+      <option name="closed" value="true" />
+      <created>1756989310511</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756989310511</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,14 +523,16 @@
     <MESSAGE value="LC-07" />
     <MESSAGE value="Started Vector" />
     <MESSAGE value="MyVector" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyVector" />
+    <MESSAGE value="Remade Vector" />
+    <MESSAGE value="deleted debug outputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted debug outputs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/MyString/MyString.cpp</url>
-          <line>117</line>
+          <line>123</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

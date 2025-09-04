@@ -12,9 +12,9 @@ public:
     
     NewVector() //default constructor
     {
-        data=nullptr;
-        size=0;
-        capacity=0;
+        data = nullptr;
+        size = 0;
+        capacity = 0;
         std::cout << "Default constructor" << '\n'; //DEBUG
     }
 
@@ -112,6 +112,11 @@ public:
     }
 
     friend std::ostream& operator<<(std::ostream& os, const NewVector& vec); //friend of <<
+
+    ~NewVector()
+    {
+        delete[] data;
+    }
 };
 
 std::ostream& operator<<(std::ostream& os, const NewVector& vec) // << overload

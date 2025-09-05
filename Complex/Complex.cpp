@@ -46,7 +46,6 @@ public:
         return *this;
     }
     
-    friend Complex operator==(const Complex& main, const Complex& other);
     friend Complex operator+(const Complex& main, const Complex& other);
     friend Complex operator-(const Complex& main, const Complex& other);
     friend Complex operator*(const Complex& main, const Complex& other);

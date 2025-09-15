@@ -22,8 +22,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/Complex.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/Complex.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/CPP_Lessons/Lessons/Complex/Complex.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Complex/Complex.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -419,7 +418,7 @@
       <workItem from="1756624359963" duration="7363000" />
       <workItem from="1756963873397" duration="857000" />
       <workItem from="1756978814443" duration="12178000" />
-      <workItem from="1757052151014" duration="10464000" />
+      <workItem from="1757052151014" duration="11972000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -533,7 +532,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757067724420</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Started BigInteger">
+      <option name="closed" value="true" />
+      <created>1757076641359</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757076641359</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +575,8 @@
     <MESSAGE value="deleted debug outputs" />
     <MESSAGE value="Updated MyString&#10;Added &lt;&lt; to Vector&#10;Added destructor to vector" />
     <MESSAGE value="Added Complex Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Complex Class" />
+    <MESSAGE value="Started BigInteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started BigInteger" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

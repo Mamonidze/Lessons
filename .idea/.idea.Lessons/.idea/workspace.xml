@@ -20,43 +20,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/shelf/Uncommitted_changes_before_Update_at_30_08_2025_10_08_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/shelf/Uncommitted_changes_before_Update_at_30_08_2025_10_08__Changes_.xml" beforeDir="false" />
+    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="BigInteger - +, &lt;&lt;">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/BigInteger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/BigInteger.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.exe.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.obj" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/BigInteger.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/BigInteger.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/Cl.items.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/link.secondary.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/BigInteger.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigInteger/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigInteger/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.exe.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/Cl.items.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/Complex.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/Complex.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/link.secondary.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/Complex.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Complex/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/BigInteger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/BigInteger.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/BigInteger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/BigInteger.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Complex.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Complex.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Complex.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Complex.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +219,61 @@
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://16" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://20" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Complex/Complex.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -271,7 +290,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "C++ Project.BigInteger.executor": "Debug",
+    "C++ Project.BigInteger.executor": "Run",
     "C++ Project.Complex.executor": "Run",
     "C++ Project.MyString.executor": "Run",
     "C++ Project.MyVector.executor": "Run",
@@ -724,7 +743,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757067724420</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="BigInteger - +, &lt;&lt;">
+      <option name="closed" value="true" />
+      <created>1757152258761</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757152258761</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,23 +786,8 @@
     <MESSAGE value="deleted debug outputs" />
     <MESSAGE value="Updated MyString&#10;Added &lt;&lt; to Vector&#10;Added destructor to vector" />
     <MESSAGE value="Added Complex Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Complex Class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/BigInteger/BigInteger.cpp</url>
-          <line>55</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/BigInteger/BigInteger.cpp</url>
-          <line>48</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="BigInteger - +, &lt;&lt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="BigInteger - +, &lt;&lt;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

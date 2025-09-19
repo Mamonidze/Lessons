@@ -22,9 +22,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="LC_MergeTwoSortedLists">
+    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="Changed RemoveDuplicates">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/shelf/Uncommitted_changes_before_Update_at_01_09_2025_10_55__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2025_10_16__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +44,12 @@
     &quot;assignee&quot;: &quot;Mamonidze&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mamonidze/Lessons.git",
-    "accountId": "2b0717d8-62bd-46cb-8e96-ca63f230452d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mamonidze/Lessons.git&quot;,
+    &quot;accountId&quot;: &quot;2b0717d8-62bd-46cb-8e96-ca63f230452d&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Complex/Complex.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -576,6 +577,7 @@
       <workItem from="1756978814443" duration="12178000" />
       <workItem from="1757052151014" duration="10464000" />
       <workItem from="1758196573183" duration="3057000" />
+      <workItem from="1758268645101" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -705,7 +707,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758196923444</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed RemoveDuplicates">
+      <option name="closed" value="true" />
+      <created>1758268838508</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1758268838508</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +752,8 @@
     <MESSAGE value="Added Complex Class" />
     <MESSAGE value="BigInteger - +, &lt;&lt;" />
     <MESSAGE value="LC_MergeTwoSortedLists" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC_MergeTwoSortedLists" />
+    <MESSAGE value="Changed RemoveDuplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed RemoveDuplicates" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

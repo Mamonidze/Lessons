@@ -7,6 +7,8 @@
     <projectFile>LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj</projectFile>
     <projectFile>LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj</projectFile>
     <projectFile>LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj</projectFile>
+    <projectFile>LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj</projectFile>
+    <projectFile>LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj</projectFile>
     <projectFile>LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj</projectFile>
     <projectFile>LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj</projectFile>
     <projectFile>LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj</projectFile>
@@ -20,8 +22,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="BigInteger - +, &lt;&lt;">
+    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="LC_MergeTwoSortedLists">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,243 +43,17 @@
     &quot;assignee&quot;: &quot;Mamonidze&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Mamonidze/Lessons&quot;,
-    &quot;accountId&quot;: &quot;74bc643e-b8f1-47b9-944d-c4fc25c639ac&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Mamonidze/Lessons.git",
+    "accountId": "2b0717d8-62bd-46cb-8e96-ca63f230452d"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://20" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Complex/Complex.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -287,44 +64,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "C++ Project.BigInteger.executor": "Run",
-    "C++ Project.Complex.executor": "Run",
-    "C++ Project.MyString.executor": "Run",
-    "C++ Project.MyVector.executor": "Run",
-    "C++ Project.RoundToInt.executor": "Run",
-    "C/C++ Project.BigInteger.executor": "Run",
-    "C/C++ Project.CastOptions.executor": "Run",
-    "C/C++ Project.Complex.executor": "Run",
-    "C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor": "Run",
-    "C/C++ Project.LC_ConcatenationOfArray.executor": "Run",
-    "C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor": "Run",
-    "C/C++ Project.LC_IntersectionofTwoArrays.executor": "Run",
-    "C/C++ Project.LC_Richest Customer Wealth.executor": "Run",
-    "C/C++ Project.LC_ShuffleTheArray.executor": "Run",
-    "C/C++ Project.LC_SmallestIndexWithEqualValue.executor": "Debug",
-    "C/C++ Project.MyClasses.executor": "Run",
-    "C/C++ Project.MyString.executor": "Run",
-    "C/C++ Project.MyVector.executor": "Run",
-    "C/C++ Project.NewVector.executor": "Run",
-    "C/C++ Project.RoundToInt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CppShadersOptionsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.Complex.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.MyString.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.CastOptions.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.Complex.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_ConcatenationOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_IntersectionofTwoArrays.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_Richest Customer Wealth.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_ShuffleTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_SmallestIndexWithEqualValue.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ Project.MyClasses.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.MyString.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.NewVector.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CppShadersOptionsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C++ Project.BigInteger">
     <configuration name="BigInteger" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -454,6 +231,171 @@
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_IntersectionofTwoLinkedLists" type="CppProject" factoryName="C++ Project">
+      <configuration_1>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_1>
+      <configuration_2>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_2>
+      <configuration_3>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_3>
+      <configuration_4>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_4>
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_MergeTwoSortedLists" type="CppProject" factoryName="C++ Project">
+      <configuration_1>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_1>
+      <configuration_2>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_2>
+      <configuration_3>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_3>
+      <configuration_4>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_4>
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_RemoveDuplicatesFromList" type="CppProject" factoryName="C++ Project">
+      <configuration_1>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_1>
+      <configuration_2>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_2>
+      <configuration_3>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_3>
+      <configuration_4>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_4>
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
@@ -593,6 +535,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C++ Project.LC_IntersectionofTwoLinkedLists" />
+      <item itemvalue="C++ Project.LC_MergeTwoSortedLists" />
+      <item itemvalue="C++ Project.LC_RemoveDuplicatesFromList" />
       <item itemvalue="C++ Project.BigInteger" />
       <item itemvalue="C++ Project.CastOptions" />
       <item itemvalue="C++ Project.Complex" />
@@ -630,6 +575,7 @@
       <workItem from="1756963873397" duration="857000" />
       <workItem from="1756978814443" duration="12178000" />
       <workItem from="1757052151014" duration="10464000" />
+      <workItem from="1758196573183" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -751,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757152258761</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="LC_MergeTwoSortedLists">
+      <option name="closed" value="true" />
+      <created>1758196923444</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1758196923444</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +741,8 @@
     <MESSAGE value="Updated MyString&#10;Added &lt;&lt; to Vector&#10;Added destructor to vector" />
     <MESSAGE value="Added Complex Class" />
     <MESSAGE value="BigInteger - +, &lt;&lt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="BigInteger - +, &lt;&lt;" />
+    <MESSAGE value="LC_MergeTwoSortedLists" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC_MergeTwoSortedLists" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

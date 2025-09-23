@@ -15,6 +15,7 @@
     <projectFile>LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj</projectFile>
     <projectFile>Lessons/Lessons.vcxproj</projectFile>
     <projectFile>MyClasses/MyClasses.vcxproj</projectFile>
+    <projectFile>MyList/MyList.vcxproj</projectFile>
     <projectFile>MyString/MyString.vcxproj</projectFile>
     <projectFile>NewVector/NewVector.vcxproj</projectFile>
     <projectFile>RoundToInt/RoundToInt.vcxproj</projectFile>
@@ -23,7 +24,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="Added Intersection">
+    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="Added Reverse Linked List">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +71,7 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
     &quot;C++ Project.Complex.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.MyList.executor&quot;: &quot;Run&quot;,
     &quot;C++ Project.MyString.executor&quot;: &quot;Run&quot;,
     &quot;C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
     &quot;C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
@@ -98,11 +101,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CppShadersOptionsId&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C++ Project.BigInteger">
+  <component name="RunManager" selected="C++ Project.MyList">
     <configuration name="BigInteger" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
@@ -532,6 +535,61 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="MyList" type="CppProject" factoryName="C++ Project">
+      <configuration_1>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_1>
+      <configuration_2>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_2>
+      <configuration_3>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_3>
+      <configuration_4>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_4>
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="MyString" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
@@ -591,6 +649,7 @@
     </configuration>
     <list>
       <item itemvalue="C++ Project.LC_ReverseLinkedList" />
+      <item itemvalue="C++ Project.MyList" />
       <item itemvalue="C++ Project.LC_IntersectionofTwoLinkedLists" />
       <item itemvalue="C++ Project.LC_MergeTwoSortedLists" />
       <item itemvalue="C++ Project.LC_RemoveDuplicatesFromList" />
@@ -632,7 +691,9 @@
       <workItem from="1756978814443" duration="12178000" />
       <workItem from="1757052151014" duration="10464000" />
       <workItem from="1758196573183" duration="3057000" />
-      <workItem from="1758268645101" duration="2076000" />
+      <workItem from="1758268645101" duration="4766000" />
+      <workItem from="1758607195964" duration="4783000" />
+      <workItem from="1758618627595" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -778,7 +839,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758275551276</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added Reverse Linked List">
+      <option name="closed" value="true" />
+      <created>1758281181887</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1758281181887</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -817,7 +886,8 @@
     <MESSAGE value="LC_MergeTwoSortedLists" />
     <MESSAGE value="Changed RemoveDuplicates" />
     <MESSAGE value="Added Intersection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Intersection" />
+    <MESSAGE value="Added Reverse Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Reverse Linked List" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

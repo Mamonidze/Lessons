@@ -26,7 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="Added Reverse Linked List">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyList/MyList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/MyList.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,45 +66,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.Complex.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.MyList.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.MyString.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.CastOptions.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.Complex.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ConcatenationOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_IntersectionofTwoArrays.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_Richest Customer Wealth.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ShuffleTheArray.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_SmallestIndexWithEqualValue.executor&quot;: &quot;Debug&quot;,
-    &quot;C/C++ Project.MyClasses.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.MyString.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.NewVector.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C++ Project.BigInteger.executor": "Run",
+    "C++ Project.Complex.executor": "Run",
+    "C++ Project.MyList.executor": "Run",
+    "C++ Project.MyString.executor": "Run",
+    "C++ Project.MyVector.executor": "Run",
+    "C++ Project.RoundToInt.executor": "Run",
+    "C/C++ Project.BigInteger.executor": "Run",
+    "C/C++ Project.CastOptions.executor": "Run",
+    "C/C++ Project.Complex.executor": "Run",
+    "C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor": "Run",
+    "C/C++ Project.LC_ConcatenationOfArray.executor": "Run",
+    "C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor": "Run",
+    "C/C++ Project.LC_IntersectionofTwoArrays.executor": "Run",
+    "C/C++ Project.LC_Richest Customer Wealth.executor": "Run",
+    "C/C++ Project.LC_ShuffleTheArray.executor": "Run",
+    "C/C++ Project.LC_SmallestIndexWithEqualValue.executor": "Debug",
+    "C/C++ Project.MyClasses.executor": "Run",
+    "C/C++ Project.MyString.executor": "Run",
+    "C/C++ Project.MyVector.executor": "Run",
+    "C/C++ Project.NewVector.executor": "Run",
+    "C/C++ Project.RoundToInt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="C++ Project.MyList">
     <configuration name="BigInteger" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -694,6 +694,7 @@
       <workItem from="1758268645101" duration="4766000" />
       <workItem from="1758607195964" duration="4783000" />
       <workItem from="1758618627595" duration="611000" />
+      <workItem from="1758692988210" duration="6485000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />

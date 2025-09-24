@@ -1,94 +1,163 @@
-#include <unordered_map>
 
-class ListNode
-{
-public:
-    int val;
-    ListNode* next;
-    ListNode* prev;
-
-    ListNode(int value, ListNode *next, ListNode *prev) : val(value), next(next), prev(prev) {}
-};
 
 class MyList
 {
-private:
-    ListNode* head; // голова списка
-    ListNode* tail; // хвост списка
-    int size;       // размер списка
-
-public:
-    MyList() : head(NULL), tail(NULL), size(0) {} // базовый конструктор
-
-    void push_back(const int &value) //функция пуш бека
+    class ListNode
     {
-        ListNode* newNode = new ListNode(value, nullptr, tail); //создаем новую ноду в конце списка: value - значение, next - null потому что посл эл показывает в нуль, prev - tail, потому что новый элт должен указывать на конец списка
-        if (tail)                                                       // если tail != nullptr (то есть список не является пустым)
-        {
-            tail->next = newNode;                                       //указатель на след элемент у хвоста должен указывать на новую ноду
-        }
-        else                                                            //если список пуст, то есть tail == nullptr
-        {
-            head = newNode;                                             //голова тоже должна указывать на новую ноду, т.к она единственная в списке
-        }
-        tail = newNode;                                                 //теперь новая нода - новый хвост списка
-        size++;                                                         //увеличиваем размер
-    }
+    public:
+        // у каждой ноды есть:
+        int value;      // значение
+        ListNode* prev; // указатель на пред ноду
+        ListNode* next; // указатель на след ноду
 
-    void push_front(const int &value)
+        ListNode(int v) : value(v), prev(nullptr), next(nullptr){} // конструктор
+        ~ListNode(); //деструктор
+    };
+    //у каждого листа есть:
+    ListNode* head{};// указатель на первый элемент
+    ListNode* tail{};// указатель на последний элемент
+    int size{};    // размер
+
+    MyList(int val, int size): size(size){} //конструктор
+    ~MyList(){head = nullptr; tail = nullptr; size = 0;} //деструктор
+
+
+    void push_back(int &value)
     {
-        ListNode* newNode = new ListNode(value, head, nullptr);
-        if (head)
+        if(head == nullptr) //если список пустой
         {
-            head->prev= newNode;
+            ListNode* newNode = new ListNode(value);
+            head = tail = newNode;
+            size++;
         }
         else
         {
-            tail = newNode;
+            ListNode* newNode = new ListNode(value); //создаем новую ноду
+            tail->next = newNode; //присоединяем к хвосту
+            newNode->prev = tail; // связываем обратно хвост и ноду
+            tail = tail->next; // новая нода теперь новый хвост
+            size++;
         }
-        head = newNode;
-        size++;
     }
 
-    void insert(const int &value, const int &pos)
+    void push_front(int &value)
     {
-        ListNode* newNode = new ListNode(value, nullptr, nullptr);
-        if (pos == 1)
+        if (head == nullptr) //если список пустой
         {
-            this->push_front(value);
+            push_back(value);
         }
-        if (pos >= size)
+        else
         {
-            this->push_back(value);
+            ListNode* newNode = new ListNode(value); //создаем новую ноду
+            head->prev = newNode;
+            newNode->next = head;
+            head = newNode;
+            size++;
         }
+    }
 
-        ListNode* temp = head->next;
-
-        for (int i = 1; i < pos; i++)
+    void pop_back()
+    {
+        if (head == nullptr)
         {
-            temp = temp->next;
+            return;
         }
-        temp->next = newNode;
-        newNode->prev = temp;
-        size++;
         
+        if(head == tail)
+        {
+            delete head;
+            size--;
+        }
+        else
+        {
+            tail->prev = tail; //пред элемент теперь новый тейл
+            delete tail->next; //удаляем посл элемент
+            tail->next = nullptr; //обнуляем некст поинтер
+            size--;
+        }
     }
 
-    MyList& operator=(const MyList& other)
+    void pop_front()
     {
-        if (this == &other)
+        if (head == nullptr)
         {
-            return *this; //self-assignment
+            return;
         }
-        this->head = other.head;
-        this->tail = other.tail;
-        this->size = other.size;
-        for (int i = 0; i < other.size; i++)
+        
+        if(head == tail)
+        {
+            delete head;
+            size--;
+        }
+        else
         {
             
+            head->next = head; 
+            delete head->prev; 
+            head->prev = nullptr; 
+            size--;
         }
-        return *this;
     }
+
+    void insert(int &value, int pos)
+    {
+        if (pos >= size)
+        {
+            return;
+        }
+        if (head == nullptr || (head == tail && pos == 1))
+        {
+            push_back(value);
+        }
+        if ( head == tail && pos == 0)
+        {
+            push_front(value);
+        }
+        else
+        {
+            ListNode* temp = head;
+            for (int i = 0; i < pos; ++i)
+            {
+                temp = temp->next;
+            }
+            ListNode* newNode = new ListNode(value);
+            temp->prev->next = newNode;
+            newNode->prev = temp->prev;
+            temp->prev = newNode;
+            newNode->next = temp;
+            size++;
+        }
+    }
+
+    void remove(int &value, int pos)
+    {
+        if (pos >= size || head == nullptr)
+        {
+            return;
+        }
+
+        if (head == tail || pos == size-1)
+        {
+            pop_back();
+        }
+        else if (head == tail || pos == 0)
+        {
+            pop_front();
+        }
+        else
+        {
+            ListNode* temp = head;
+            for (int i = 0; i < pos; ++i)
+            {
+                temp = temp->next;
+            }
+            temp->prev->next = temp->next;
+            temp->next->prev = temp->prev;
+            delete temp;
+            size--;
+        }
+    }
+
     
 };
 
@@ -96,9 +165,6 @@ public:
 
 int main()
 {
-    MyList mainlist;
-    mainlist.push_back(4);
-    mainlist.push_front(5);
-    
+
     return 0;
 }

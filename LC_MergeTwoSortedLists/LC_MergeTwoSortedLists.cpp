@@ -10,26 +10,48 @@ struct ListNode {
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        
-        ListNode dummy(0); //создаем начальный элемент списка, чтобы было от чего идти
-        ListNode* tail = &dummy; //создаем указатель на этот элемент
+        ListNode* l1{list1};
+        ListNode* l2{list2};
+        ListNode* l3 = nullptr;
 
-        while (list1 && list2) //пока оба списка не закончились
+        if (list2 == nullptr)
         {
-            if (list1->val <= list2->val) //если текущее значение из листа1 <= значения из листа 2
+            return list1;
+        }
+
+        if (list1 == nullptr && list2 != nullptr)
+        {
+            return list2;
+        }
+
+        if (l1->val <= l2->val)
+        {
+            l3 = l1;
+            l1 = l1->next;
+        }
+        else
+        {
+            l3 = l2;
+            l2 = l2->next;
+        }
+
+        ListNode* l4 = l3;
+        while(l1 && l2)
+        {
+            if (l1->val <= l2->val)
             {
-                tail->next = list1;//следующее значение в новом списке указывает на меньшее
-                list1 = list1->next; //двигаем указатель по списку 1
+                l3->next = l1;
+                l1 = l1->next;
             }
             else
             {
-                tail->next = list2; //следующее значение в новом списке указывает на меньшее
-                list2 = list2->next;//двигаем указатель по списку 2
+                l3->next = l2;
+                l2 = l2->next;
             }
-            tail = tail->next; //двигаем хвост в новом списке на 1 элемент вперед
+            l3 = l3->next;
         }
 
-        tail->next = list1 ? list1 : list2; //привязываем последнюю ноду, если 1 список закончился раньше чем второй
-        return dummy.next;
+        l3->next = l1 ? l1 : l2;
+        return l4;
     }
 };

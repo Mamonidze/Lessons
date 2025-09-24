@@ -10,6 +10,7 @@
     <projectFile>LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj</projectFile>
     <projectFile>LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj</projectFile>
     <projectFile>LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj</projectFile>
+    <projectFile>LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj</projectFile>
     <projectFile>LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj</projectFile>
     <projectFile>LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj</projectFile>
     <projectFile>LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj</projectFile>
@@ -25,8 +26,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="Changed Intersection">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="Added binary to integer">
       <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -460,6 +460,61 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LC_RemoveNthNodeFromEndofList" type="CppProject" factoryName="C++ Project">
+      <configuration_1>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_1>
+      <configuration_2>
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_2>
+      <configuration_3>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="Win32" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_3>
+      <configuration_4>
+        <option name="CONFIGURATION" value="Release" />
+        <option name="PLATFORM" value="x64" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+      </configuration_4>
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LC_ReverseLinkedList" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
@@ -705,6 +760,7 @@
     </configuration>
     <list>
       <item itemvalue="C++ Project.LC_ConvertBinaryNumberinaLinkedListtoInteger" />
+      <item itemvalue="C++ Project.LC_RemoveNthNodeFromEndofList" />
       <item itemvalue="C++ Project.LC_ReverseLinkedList" />
       <item itemvalue="C++ Project.MyList" />
       <item itemvalue="C++ Project.LC_IntersectionofTwoLinkedLists" />
@@ -751,7 +807,7 @@
       <workItem from="1758268645101" duration="4766000" />
       <workItem from="1758607195964" duration="4783000" />
       <workItem from="1758618627595" duration="611000" />
-      <workItem from="1758692988210" duration="11572000" />
+      <workItem from="1758692988210" duration="12362000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -921,7 +977,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758707883378</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added binary to integer">
+      <option name="closed" value="true" />
+      <created>1758723134900</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1758723134900</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -963,7 +1027,8 @@
     <MESSAGE value="Added Reverse Linked List" />
     <MESSAGE value="rewrite mylist" />
     <MESSAGE value="Changed Intersection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Intersection" />
+    <MESSAGE value="Added binary to integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added binary to integer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,52 +1,59 @@
 
- 
-  struct ListNode {
-      int val;
-      ListNode *next;
-      ListNode(int x) : val(x), next(NULL) {}
-  };
- 
+ struct ListNode {
+    int val;
+   ListNode *next;
+    ListNode(int x) : val(x), next(nullptr) {}
+};
 
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        
-        //если хотя бы 1 из списков пуст - возвращаем nullptr
-        if(!headA || !headB) return nullptr;
 
-        //создаем 2 указателя, которые будут бежать по спискам
-        ListNode* pA = headA; 
-        ListNode* pB = headB;
-
-        while (pA != pB) //бежим пока у указателей не совпадут адреса. Если совпадающих нет - совпадут на nullptr
+        if(headA == nullptr || headB == nullptr)
         {
-            //т.к. листы могут быть разной длины, каждым указателем бежим по обоим. Если 1 заканчивается - перепрыгиваем на другой
-            if (pA == nullptr)
-            {
-                pA = headB;
-            }
-            else
-            {
-                pA = pA->next; //если pA != nullptr - двигаем pA
-            }
+            return nullptr;
+        }
 
-            if (pB == nullptr)
+        int size1{};
+        int size2{};
+        ListNode* l1 {headA};
+        ListNode* l2 {headB};
+
+        while (l1)
+        {
+            l1 = l1->next;
+            size1 += 1;
+        }
+
+        while (l2)
+        {
+            l2 = l2->next;
+            size2 += 1;
+        }
+        l1 = headA;
+        l2 = headB;
+
+        if (size1 > size2)
+        {
+            for (int i = 0; i < size1-size2; i++)
             {
-                pB = headA;
-            }
-            else
-            {
-                pB = pB->next; //если pB != nullptr - двигаем pB
+                l1 = l1->next;
             }
         }
-        return pA;
+        
+        if (size1 < size2)
+        {
+            for (int i = 0; i < size2-size1; i++)
+            {
+                l2 = l2->next;
+            }
+        }
 
+        while (l1 != l2)
+        {
+            l1 = l1->next;
+            l2 = l2->next;
+        }
+        return l1;
     }
 };
-
-
-int main(int argc, char* argv[])
-{
-    
-    return 0;
-}

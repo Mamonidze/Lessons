@@ -24,8 +24,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="Added Reverse Linked List">
+    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="rewrite mylist">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyList/MyList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/MyList.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -694,7 +695,7 @@
       <workItem from="1758268645101" duration="4766000" />
       <workItem from="1758607195964" duration="4783000" />
       <workItem from="1758618627595" duration="611000" />
-      <workItem from="1758692988210" duration="6485000" />
+      <workItem from="1758692988210" duration="9684000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -848,7 +849,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758281181887</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="rewrite mylist">
+      <option name="closed" value="true" />
+      <created>1758699902312</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1758699902312</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -888,7 +897,8 @@
     <MESSAGE value="Changed RemoveDuplicates" />
     <MESSAGE value="Added Intersection" />
     <MESSAGE value="Added Reverse Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Reverse Linked List" />
+    <MESSAGE value="rewrite mylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewrite mylist" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

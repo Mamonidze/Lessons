@@ -165,6 +165,10 @@ class MyList
 
 int main()
 {
+    for (int i = 0; i < MAX; ++i)
+    {
+        
+    }
 
     return 0;
 }

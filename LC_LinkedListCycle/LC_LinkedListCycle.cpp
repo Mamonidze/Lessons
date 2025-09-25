@@ -8,19 +8,19 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        if (!head || !head->next) return false;  // пустой или 1 элемент → цикла нет
+        if (!head || !head->next) return false;  
 
         ListNode* slow = head;
         ListNode* fast = head;
 
         while (fast && fast->next) {
-            slow = slow->next;           // 🐢 двигается на 1
-            fast = fast->next->next;     // 🐇 двигается на 2
+            slow = slow->next;           
+            fast = fast->next->next;     
 
-            if (slow == fast) return true;  // встретились → цикл найден
+            if (slow == fast) return true;  
         }
 
-        return false;  // дошли до конца → цикла нет
+        return false;  
     }
 };
 

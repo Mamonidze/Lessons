@@ -12,9 +12,14 @@ public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         ListNode* l1{list1};
         ListNode* l2{list2};
-        ListNode* l3 = nullptr;
+        ListNode* l3 = nullptr;          
+        for (int i = 0; i < 5; ++i)
+        {
+           
+        }
 
-        if (list2 == nullptr)
+
+              if (list2 == nullptr)
         {
             return list1;
         }
@@ -53,5 +58,7 @@ public:
 
         l3->next = l1 ? l1 : l2;
         return l4;
+        
+        
     }
 };

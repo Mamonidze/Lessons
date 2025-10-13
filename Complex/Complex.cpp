@@ -17,7 +17,7 @@ public:
         this->imag = imag;
     }
 
-    Complex& operator=(const Complex& other) =default;
+    Complex& operator=(const Complex& other) &  =default;
     Complex& operator+=(const Complex& other)
     {
         this->real += other.real;
@@ -57,9 +57,10 @@ public:
     ~Complex() = default;
 };
 
-Complex operator+(const Complex& main, const Complex& other)
+Complex operator+(const Complex& main, const Complex& other) //выражаем через +=, это быстрее чем через +
 {
-    Complex result(main.real + other.real, main.imag + other.imag);
+    Complex result = main; 
+    result += other;
     return result;
 }
 

@@ -1,21 +1,18 @@
 
 #include <iostream>
+#include <string>
 
 class MyString
 {
 private:
-    char* data;
-    size_t size{};
+    char* data = nullptr;
+    size_t size{0};
 
     
     
 public:
 
-    MyString() // default constructor
-    {
-        data = nullptr;
-        size = 0;
-    }  
+    MyString() = default; // default constructor
 
     MyString(const char* s): size(strlen(s))
     {
@@ -27,6 +24,8 @@ public:
         }
     }
 
+
+        
     MyString(size_t n, char c)
     {
         data = new char[n + 1];
@@ -35,6 +34,7 @@ public:
             data[i] = c;
             std::cout << data[i];
         }
+        
     }
 
     MyString(const char* s, size_t n)
@@ -44,8 +44,15 @@ public:
         {
             data[i] = s[i];
             std::cout << data[i];
-
         }
+    }
+
+    MyString(std::initializer_list<char> list) //initializer list constructor
+            : data(new char[list.size()])
+            , size(list.size())
+    {
+        std::copy(list.begin(), list.end(), data);
+        data[size] = '\0'; //ласт элемент строки - нуль терминатор
     }
     
     char& operator[](size_t index) // [] overload
@@ -53,7 +60,7 @@ public:
         return data[index];
     }
     
-    char& operator[](size_t index) const // [] overload const
+    const /*const результата*/ char& operator[](size_t index) const /*const для метода*/ // [] overload const
     {
         return data[index];
     }
@@ -132,6 +139,8 @@ std::istream& operator>>(std::istream& is, MyString& str)
 
 int main()
 {
+    MyString s10 {'a','b','c'};
+    std::cout << s10;
     MyString s2{"Hello, Bitches"}; //copy of str
     std::cout << '\n';
     

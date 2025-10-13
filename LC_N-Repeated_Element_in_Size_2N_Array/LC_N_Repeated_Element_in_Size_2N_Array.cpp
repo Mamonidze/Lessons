@@ -1,24 +1,21 @@
-#include <vector>
+#include <unordered_map>
 
 class Solution {
 public:
     int repeatedNTimes(std::vector<int>& nums) {
-        int counter = 0;
+        std::unordered_map<int,int> map{};
+        for (auto i : nums)
+        {
+            map[i]++;
+        }
+
         for(int i = 0; i < nums.size(); i++)
         {
-            counter = 0;
-            for (int j = 0; j < nums.size(); j++)
-            {
-                if(nums[i] == nums[j])
-                {
-                    counter += 1;
-                }
-            }
-            if (counter == nums.size()/2)
+            if(map[nums[i]] == nums.size()/2)
             {
                 return nums[i];
             }
         }
-        return counter;
+        return -1;
     }
 };

@@ -1,27 +1,22 @@
-#include <xstring>
+#include <string>
+#include <unordered_map>
 
 class Solution {
 public:
     int firstUniqChar(std::string s) {
-
-        for (int i = 0; i < s.length(); i++)
+        std::unordered_map<char, int> map{};
+        for(auto i : s)
         {
-            bool IsUnique = true;
+            map[i]++; //увеличиваем счетчик на каждом соотв ключе, т.е букве
+        }
 
-            for (int j = 0; j < s.length(); j++)
-            {
-                if(i != j && s[i] == s[j])
-                {
-                    IsUnique = false;
-                    break;
-                }
-            }
-            if (IsUnique)
+        for(int i = 0; i < s.size(); i++)
+        {
+            if(map[s[i]] == 1)
             {
                 return i;
             }
         }
-    
         return -1;
     }
 };

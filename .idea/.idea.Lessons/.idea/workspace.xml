@@ -36,15 +36,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.obj" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/MyString.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyString/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyString/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/MyString.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyString.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/MyString.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyString.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1438,7 +1429,7 @@
       <workItem from="1759476022958" duration="6492000" />
       <workItem from="1760026998126" duration="906000" />
       <workItem from="1760339422956" duration="5569000" />
-      <workItem from="1760346076942" duration="5753000" />
+      <workItem from="1760346076942" duration="7238000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1640,7 +1631,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760342141832</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="LC_Exercises">
+      <option name="closed" value="true" />
+      <created>1760359212924</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1760359212924</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1661,7 +1660,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="LC 01-02" />
     <MESSAGE value="1" />
     <MESSAGE value="LC_03" />
     <MESSAGE value="fixes" />
@@ -1686,7 +1684,8 @@
     <MESSAGE value="added remove nth node from end of list" />
     <MESSAGE value="changed merged lists" />
     <MESSAGE value="LC_twoSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC_twoSum" />
+    <MESSAGE value="LC_Exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC_Exercises" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

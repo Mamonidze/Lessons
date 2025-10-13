@@ -1,17 +1,18 @@
-#include <vector>
+#include <unordered_set>
 
 class Solution {
 public:
     int missingNumber(std::vector<int>& nums) {
+        std::unordered_set<int> set(nums.begin(), nums.end());
 
-        int n = nums.size();
-        int sum = n*(n+1)/2;
-        int result{};
-        for(auto it : nums)
+
+        for(int i = 0; i <= nums.size() + 1; i++)
         {
-            result += it;
+            if(set.count(i) == 0)
+            {
+                return i;
+            }
         }
-
-        return sum - result;
+        return -1;
     }
 };

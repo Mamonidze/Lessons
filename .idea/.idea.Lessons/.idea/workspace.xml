@@ -4,6 +4,7 @@
     <projectFile>BigInteger/BigInteger.vcxproj</projectFile>
     <projectFile>CastOptions/CastOptions.vcxproj</projectFile>
     <projectFile>Complex/Complex.vcxproj</projectFile>
+    <projectFile>Hash_Table/Hash_Table.vcxproj</projectFile>
     <projectFile>LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj</projectFile>
     <projectFile>LC_ Missing_Number/LC_ Missing_Number.vcxproj</projectFile>
     <projectFile>LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj</projectFile>
@@ -34,8 +35,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="+">
+    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/NewVector/Vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewVector/Vector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/NewVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/NewVector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/NewVector.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/NewVector.vcxproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +69,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/xhash" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Complex/Complex.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hash_Table/Hash_Table.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ Missing_Number/LC__Missing_Number.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N_Repeated_Element_in_Size_2N_Array.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NewVector/Vector.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NewVector/Vector.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -119,12 +129,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C++ Project.LC_Missing_Number">
+  <component name="RunManager" selected="C/C++ Project.BigInteger">
     <configuration name="BigInteger" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/BigInteger/BigInteger.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -132,18 +141,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/BigInteger/BigInteger.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/BigInteger/BigInteger.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/BigInteger/BigInteger.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="CastOptions" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/CastOptions/CastOptions.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -151,18 +161,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/CastOptions/CastOptions.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/CastOptions/CastOptions.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/CastOptions/CastOptions.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="Complex" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Complex/Complex.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -170,18 +181,27 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Complex/Complex.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Complex/Complex.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Complex/Complex.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Hash_Table" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ CheckIfTwoStringArraysareEquivalent" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -189,18 +209,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC_ CheckIfTwoStringArraysareEquivalent.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ Missing_Number" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -208,11 +229,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -220,11 +241,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -232,11 +253,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -244,18 +265,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ Missing_Number/LC_ Missing_Number.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ConcatenationOfArray" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -263,18 +285,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_Contains_Duplicate" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -282,11 +305,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -294,11 +317,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -306,11 +329,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -318,18 +341,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ConvertBinaryNumberinaLinkedListtoInteger" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -337,11 +361,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -349,11 +373,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -361,11 +385,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -373,18 +397,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_CountPairsWhoseSumisLessthanTarget" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -392,18 +417,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_First_Unique_Char_String" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -411,11 +437,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -423,11 +449,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -435,11 +461,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -447,18 +473,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_IntersectionofTwoArrays" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -466,18 +493,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_IntersectionofTwoLinkedLists" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -485,11 +513,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -497,11 +525,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -509,11 +537,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -521,18 +549,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_IntersectionofTwoLinkedLists/LC_IntersectionofTwoLinkedLists.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_LinkedListCycle" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -540,11 +569,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -552,11 +581,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -564,11 +593,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -576,18 +605,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_LinkedListCycle/LC_LinkedListCycle.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_MergeTwoSortedLists" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -595,11 +625,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -607,11 +637,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -619,11 +649,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -631,18 +661,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_Missing_Number" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -650,11 +681,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -662,11 +693,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -674,11 +705,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -686,18 +717,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Missing_Number/LC_Missing_Number.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_N-Repeated_Element_in_Size_2N_Array" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -705,11 +737,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -717,11 +749,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -729,11 +761,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -741,18 +773,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_RemoveDuplicatesFromList" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -760,11 +793,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -772,11 +805,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -784,11 +817,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -796,18 +829,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_RemoveNthNodeFromEndofList" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -815,11 +849,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -827,11 +861,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -839,11 +873,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -851,18 +885,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ReverseLinkedList" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -870,11 +905,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -882,11 +917,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -894,11 +929,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -906,18 +941,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_Richest Customer Wealth" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -925,18 +961,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_ShuffleTheArray" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -944,18 +981,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_SmallestIndexWithEqualValue" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -963,18 +1001,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_TwoSum" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -982,11 +1021,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -994,11 +1033,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1006,11 +1045,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1018,18 +1057,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="LC_find_all_missing_numbers" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1037,11 +1077,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1049,11 +1089,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1061,11 +1101,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1073,18 +1113,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="MyClasses" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyVector/MyVector.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1092,18 +1133,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyVector/MyVector.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/MyVector/MyVector.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyVector/MyVector.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="MyList" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1111,11 +1153,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1123,11 +1165,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1135,11 +1177,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1147,18 +1189,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyList/MyList.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="MyString" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyString/MyString.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1166,18 +1209,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyString/MyString.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/MyString/MyString.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MyString/MyString.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="NewVector" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/NewVector/NewVector.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1185,18 +1229,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/NewVector/NewVector.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/NewVector/NewVector.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/NewVector/NewVector.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="RoundToInt" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/RoundToInt/RoundToInt.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1204,18 +1249,19 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/RoundToInt/RoundToInt.vcxproj" />
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/RoundToInt/RoundToInt.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/RoundToInt/RoundToInt.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <configuration name="Tamagochi" type="CppProject" factoryName="C++ Project">
-      <configuration_1>
+      <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1223,11 +1269,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
       </configuration_1>
-      <configuration_2>
+      <configuration_2 setup="1">
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1235,11 +1281,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
       </configuration_2>
-      <configuration_3>
+      <configuration_3 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1247,11 +1293,11 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
       </configuration_3>
-      <configuration_4>
+      <configuration_4 setup="1">
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
         <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
@@ -1259,44 +1305,47 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Tamagochi/Tamagochi.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C++ Project.LC_First_Unique_Char_String" />
-      <item itemvalue="C++ Project.LC_Missing_Number" />
-      <item itemvalue="C++ Project.LC_N-Repeated_Element_in_Size_2N_Array" />
-      <item itemvalue="C++ Project.LC_find_all_missing_numbers" />
-      <item itemvalue="C++ Project.LC_ Missing_Number" />
-      <item itemvalue="C++ Project.LC_Contains_Duplicate" />
-      <item itemvalue="C++ Project.LC_TwoSum" />
-      <item itemvalue="C++ Project.Tamagochi" />
-      <item itemvalue="C++ Project.LC_LinkedListCycle" />
-      <item itemvalue="C++ Project.LC_ConvertBinaryNumberinaLinkedListtoInteger" />
-      <item itemvalue="C++ Project.LC_RemoveNthNodeFromEndofList" />
-      <item itemvalue="C++ Project.LC_ReverseLinkedList" />
-      <item itemvalue="C++ Project.MyList" />
-      <item itemvalue="C++ Project.LC_IntersectionofTwoLinkedLists" />
-      <item itemvalue="C++ Project.LC_MergeTwoSortedLists" />
-      <item itemvalue="C++ Project.LC_RemoveDuplicatesFromList" />
-      <item itemvalue="C++ Project.BigInteger" />
-      <item itemvalue="C++ Project.CastOptions" />
-      <item itemvalue="C++ Project.Complex" />
-      <item itemvalue="C++ Project.LC_ CheckIfTwoStringArraysareEquivalent" />
-      <item itemvalue="C++ Project.LC_ConcatenationOfArray" />
-      <item itemvalue="C++ Project.LC_CountPairsWhoseSumisLessthanTarget" />
-      <item itemvalue="C++ Project.LC_IntersectionofTwoArrays" />
-      <item itemvalue="C++ Project.LC_Richest Customer Wealth" />
-      <item itemvalue="C++ Project.LC_ShuffleTheArray" />
-      <item itemvalue="C++ Project.LC_SmallestIndexWithEqualValue" />
-      <item itemvalue="C++ Project.MyClasses" />
-      <item itemvalue="C++ Project.MyString" />
-      <item itemvalue="C++ Project.NewVector" />
-      <item itemvalue="C++ Project.RoundToInt" />
+      <item itemvalue="C/C++ Project.Hash_Table" />
+      <item itemvalue="C/C++ Project.BigInteger" />
+      <item itemvalue="C/C++ Project.CastOptions" />
+      <item itemvalue="C/C++ Project.Complex" />
+      <item itemvalue="C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent" />
+      <item itemvalue="C/C++ Project.LC_ Missing_Number" />
+      <item itemvalue="C/C++ Project.LC_ConcatenationOfArray" />
+      <item itemvalue="C/C++ Project.LC_Contains_Duplicate" />
+      <item itemvalue="C/C++ Project.LC_ConvertBinaryNumberinaLinkedListtoInteger" />
+      <item itemvalue="C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget" />
+      <item itemvalue="C/C++ Project.LC_First_Unique_Char_String" />
+      <item itemvalue="C/C++ Project.LC_IntersectionofTwoArrays" />
+      <item itemvalue="C/C++ Project.LC_IntersectionofTwoLinkedLists" />
+      <item itemvalue="C/C++ Project.LC_LinkedListCycle" />
+      <item itemvalue="C/C++ Project.LC_MergeTwoSortedLists" />
+      <item itemvalue="C/C++ Project.LC_Missing_Number" />
+      <item itemvalue="C/C++ Project.LC_N-Repeated_Element_in_Size_2N_Array" />
+      <item itemvalue="C/C++ Project.LC_RemoveDuplicatesFromList" />
+      <item itemvalue="C/C++ Project.LC_RemoveNthNodeFromEndofList" />
+      <item itemvalue="C/C++ Project.LC_ReverseLinkedList" />
+      <item itemvalue="C/C++ Project.LC_Richest Customer Wealth" />
+      <item itemvalue="C/C++ Project.LC_ShuffleTheArray" />
+      <item itemvalue="C/C++ Project.LC_SmallestIndexWithEqualValue" />
+      <item itemvalue="C/C++ Project.LC_TwoSum" />
+      <item itemvalue="C/C++ Project.LC_find_all_missing_numbers" />
+      <item itemvalue="C/C++ Project.MyClasses" />
+      <item itemvalue="C/C++ Project.MyList" />
+      <item itemvalue="C/C++ Project.MyString" />
+      <item itemvalue="C/C++ Project.NewVector" />
+      <item itemvalue="C/C++ Project.RoundToInt" />
+      <item itemvalue="C/C++ Project.Tamagochi" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -1333,7 +1382,12 @@
       <workItem from="1760026998126" duration="906000" />
       <workItem from="1760339422956" duration="5569000" />
       <workItem from="1760346076942" duration="7238000" />
-      <workItem from="1760363441364" duration="1634000" />
+      <workItem from="1760363441364" duration="1695000" />
+      <workItem from="1760425322841" duration="609000" />
+      <workItem from="1760441469808" duration="1246000" />
+      <workItem from="1760512636747" duration="3809000" />
+      <workItem from="1760630758490" duration="2534000" />
+      <workItem from="1760940217482" duration="1328000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1559,7 +1613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760363686606</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="da">
+      <option name="closed" value="true" />
+      <created>1760365497834</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1760365497834</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1580,7 +1642,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="fixes" />
     <MESSAGE value="LC-04" />
     <MESSAGE value="LC-05" />
     <MESSAGE value="LC-06" />
@@ -1605,7 +1666,8 @@
     <MESSAGE value="LC_Exercises" />
     <MESSAGE value="=" />
     <MESSAGE value="+" />
-    <option name="LAST_COMMIT_MESSAGE" value="+" />
+    <MESSAGE value="da" />
+    <option name="LAST_COMMIT_MESSAGE" value="da" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

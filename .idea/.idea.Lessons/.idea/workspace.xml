@@ -36,12 +36,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NewVector/Vector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewVector/Vector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hash_Table/hash_map.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hash_Table/hash_map.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hash_Table/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewVector/NewVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/NewVector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewVector/NewVector.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/NewVector.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Hash_Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/xhash" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Complex/Complex.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Hash_Table/Hash_Table.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hash_Table/hash_map.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hash_Table/hash_map.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Hash_Table/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ Missing_Number/LC__Missing_Number.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -88,48 +90,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.Complex.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.LC_Missing_Number.executor&quot;: &quot;Debug&quot;,
-    &quot;C++ Project.MyList.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.MyString.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
-    &quot;C++ Project.Tamagochi.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.CastOptions.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.Complex.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ConcatenationOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_IntersectionofTwoArrays.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_Richest Customer Wealth.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_ShuffleTheArray.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.LC_SmallestIndexWithEqualValue.executor&quot;: &quot;Debug&quot;,
-    &quot;C/C++ Project.MyClasses.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.MyString.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.NewVector.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CppGeneralOptionsId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C++ Project.BigInteger.executor": "Run",
+    "C++ Project.Complex.executor": "Run",
+    "C++ Project.LC_Missing_Number.executor": "Debug",
+    "C++ Project.MyList.executor": "Run",
+    "C++ Project.MyString.executor": "Run",
+    "C++ Project.MyVector.executor": "Run",
+    "C++ Project.RoundToInt.executor": "Run",
+    "C++ Project.Tamagochi.executor": "Run",
+    "C/C++ Project.BigInteger.executor": "Run",
+    "C/C++ Project.CastOptions.executor": "Run",
+    "C/C++ Project.Complex.executor": "Run",
+    "C/C++ Project.Hash_Table.executor": "Run",
+    "C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor": "Run",
+    "C/C++ Project.LC_ConcatenationOfArray.executor": "Run",
+    "C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor": "Run",
+    "C/C++ Project.LC_IntersectionofTwoArrays.executor": "Run",
+    "C/C++ Project.LC_Richest Customer Wealth.executor": "Run",
+    "C/C++ Project.LC_ShuffleTheArray.executor": "Run",
+    "C/C++ Project.LC_SmallestIndexWithEqualValue.executor": "Debug",
+    "C/C++ Project.MyClasses.executor": "Run",
+    "C/C++ Project.MyString.executor": "Run",
+    "C/C++ Project.MyVector.executor": "Run",
+    "C/C++ Project.NewVector.executor": "Run",
+    "C/C++ Project.RoundToInt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CppGeneralOptionsId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="C/C++ Project.BigInteger">
+}]]></component>
+  <component name="RunManager" selected="C/C++ Project.Hash_Table">
     <configuration name="BigInteger" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -191,6 +194,18 @@
       </method>
     </configuration>
     <configuration name="Hash_Table" type="CppProject" factoryName="C++ Project">
+      <configuration_1 setup="1">
+        <option name="CONFIGURATION" value="Debug" />
+        <option name="PLATFORM" value="x64" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
+        <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
+        <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
+        <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" />
+      </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" />
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
@@ -1387,7 +1402,7 @@
       <workItem from="1760441469808" duration="1246000" />
       <workItem from="1760512636747" duration="3809000" />
       <workItem from="1760630758490" duration="2534000" />
-      <workItem from="1760940217482" duration="1328000" />
+      <workItem from="1760940217482" duration="6180000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1621,7 +1636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760365497834</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="NewVector is now Vector&#10;.h, .cpp, main.cpp">
+      <option name="closed" value="true" />
+      <created>1760941634220</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1760941634220</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1642,7 +1665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="LC-04" />
     <MESSAGE value="LC-05" />
     <MESSAGE value="LC-06" />
     <MESSAGE value="LC-07" />
@@ -1667,7 +1689,8 @@
     <MESSAGE value="=" />
     <MESSAGE value="+" />
     <MESSAGE value="da" />
-    <option name="LAST_COMMIT_MESSAGE" value="da" />
+    <MESSAGE value="NewVector is now Vector&#10;.h, .cpp, main.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="NewVector is now Vector&#10;.h, .cpp, main.cpp" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

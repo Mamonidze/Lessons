@@ -19,6 +19,7 @@
  */
 class hash_map
 {
+    
     std::vector<std::list<int>> set;
     size_t size; //количество уникальных элементов
     const int default_size{1000}; //предвыделенный вектор

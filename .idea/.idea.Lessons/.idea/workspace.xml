@@ -14,6 +14,7 @@
     <projectFile>LC_Count_the_Number_of_Consistent_Strings/LC_Count_the_Number_of_Consistent_Strings.vcxproj</projectFile>
     <projectFile>LC_Decode_the_Message/LC_Decode_the_Message.vcxproj</projectFile>
     <projectFile>LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.vcxproj</projectFile>
+    <projectFile>LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.vcxproj</projectFile>
     <projectFile>LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj</projectFile>
     <projectFile>LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj</projectFile>
     <projectFile>LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj</projectFile>
@@ -46,8 +47,6 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/hash_map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/hash_map.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/hash_map.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/hash_map.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +76,7 @@
     <setting file="file://C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/xhash" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Complex/Complex.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash_Table/hash_map.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/CPP/Lessons/Hash_Table/hash_map.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash_Table/hash_map.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash_Table/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -86,6 +86,7 @@
     <setting file="file://$PROJECT_DIR$/LC_Count_the_Number_of_Consistent_Strings/LC_Count_the_Number_of_Consistent_Strings.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Decode_the_Message/LC_Decode_the_Message.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N_Repeated_Element_in_Size_2N_Array.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Number_of_Good_Pairs/LC_Number_of_Good_Pairs.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -484,6 +485,14 @@
     <configuration name="LC_Find_Common_Elements_Between_Two_Arrays" type="CppProject" factoryName="C++ Project">
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.vcxproj" />
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_Find_the_Number_of_Good_Pairs_I" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
@@ -1420,6 +1429,7 @@
     <list>
       <item itemvalue="C/C++ Project.LC_Decode_the_Message" />
       <item itemvalue="C/C++ Project.LC_Find_Common_Elements_Between_Two_Arrays" />
+      <item itemvalue="C/C++ Project.LC_Find_the_Number_of_Good_Pairs_I" />
       <item itemvalue="C/C++ Project.LC_Permutation_Difference_between_Two_Strings" />
       <item itemvalue="C/C++ Project.LC_Sort_the_People" />
       <item itemvalue="C/C++ Project.LC_Count_Number_of_Pairs_With_Absolute_Difference_K" />
@@ -1502,7 +1512,7 @@
       <workItem from="1760940217482" duration="9368000" />
       <workItem from="1761025324498" duration="6905000" />
       <workItem from="1761126498317" duration="707000" />
-      <workItem from="1761127824704" duration="1297000" />
+      <workItem from="1761127824704" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1760,7 +1770,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761026161370</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="LC">
+      <option name="closed" value="true" />
+      <created>1761129925877</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1761129925877</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1781,7 +1799,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="LC-07" />
     <MESSAGE value="Started Vector" />
     <MESSAGE value="MyVector" />
     <MESSAGE value="Remade Vector" />
@@ -1806,7 +1823,8 @@
     <MESSAGE value="NewVector is now Vector&#10;.h, .cpp, main.cpp" />
     <MESSAGE value="hash_map" />
     <MESSAGE value="LC_restoreorder" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC_restoreorder" />
+    <MESSAGE value="LC" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

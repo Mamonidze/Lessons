@@ -35,7 +35,7 @@ public:
 
     //methods
     bool insert(int value);
-    bool find(int value);
+    bool find(int value) const;
     bool erase(int value);
     
     //destructor

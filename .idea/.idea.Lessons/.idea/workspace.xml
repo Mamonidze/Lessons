@@ -10,11 +10,17 @@
     <projectFile>LC_Contains_Duplicate/LC_Contains_Duplicate.vcxproj</projectFile>
     <projectFile>LC_ConvertBinaryNumberinaLinkedListtoInteger/LC_ConvertBinaryNumberinaLinkedListtoInteger.vcxproj</projectFile>
     <projectFile>LC_CountPairsWhoseSumisLessthanTarget/LC_CountPairsWhoseSumisLessthanTarget.vcxproj</projectFile>
+    <projectFile>LC_Count_Number_of_Pairs_With_Absolute_Difference_K/LC_Count_Number_of_Pairs_With_Absolute_Difference_K.vcxproj</projectFile>
+    <projectFile>LC_Count_the_Number_of_Consistent_Strings/LC_Count_the_Number_of_Consistent_Strings.vcxproj</projectFile>
+    <projectFile>LC_Decode_the_Message/LC_Decode_the_Message.vcxproj</projectFile>
+    <projectFile>LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.vcxproj</projectFile>
     <projectFile>LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj</projectFile>
     <projectFile>LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj</projectFile>
     <projectFile>LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj</projectFile>
     <projectFile>LC_Missing_Number/LC_Missing_Number.vcxproj</projectFile>
     <projectFile>LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj</projectFile>
+    <projectFile>LC_Number_of_Good_Pairs/LC_Number_of_Good_Pairs.vcxproj</projectFile>
+    <projectFile>LC_Permutation_Difference_between_Two_Strings/LC_Permutation_Difference_between_Two_Strings.vcxproj</projectFile>
     <projectFile>LC_RemoveDuplicatesFromList/LC_RemoveDuplicatesFromList.vcxproj</projectFile>
     <projectFile>LC_RemoveNthNodeFromEndofList/LC_RemoveNthNodeFromEndofList.vcxproj</projectFile>
     <projectFile>LC_Restore_Finishing_Order/LC_Restore_Finishing_Order.vcxproj</projectFile>
@@ -22,6 +28,8 @@
     <projectFile>LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj</projectFile>
     <projectFile>LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj</projectFile>
     <projectFile>LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj</projectFile>
+    <projectFile>LC_Sort_the_People/LC_Sort_the_People.vcxproj</projectFile>
+    <projectFile>LC_The_Two_Sneaky_Numbers_of_Digitville/LC_The_Two_Sneaky_Numbers_of_Digitville.vcxproj</projectFile>
     <projectFile>LC_TwoSum/LC_TwoSum.vcxproj</projectFile>
     <projectFile>LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj</projectFile>
     <projectFile>Lessons/Lessons.vcxproj</projectFile>
@@ -38,19 +46,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/hash_map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/hash_map.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hash_Table/hash_map.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/hash_map.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/hash_map.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/hash_map.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Hash_Table.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Hash_Table.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Hash_Table.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Hash_Table.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +82,17 @@
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ Missing_Number/LC__Missing_Number.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Count_Number_of_Pairs_With_Absolute_Difference_K/LC_Count_Number_of_Pairs_With_Absolute_Difference_K.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Count_the_Number_of_Consistent_Strings/LC_Count_the_Number_of_Consistent_Strings.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Decode_the_Message/LC_Decode_the_Message.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N_Repeated_Element_in_Size_2N_Array.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Number_of_Good_Pairs/LC_Number_of_Good_Pairs.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Permutation_Difference_between_Two_Strings/LC_Permutation_Difference_between_Two_Strings.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Restore_Finishing_Order/LC_Restore_Finishing_Order.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Sort_the_People/LC_Sort_the_People.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_The_Two_Sneaky_Numbers_of_Digitville/LC_The_Two_Sneaky_Numbers_of_Digitville.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewVector/Vector.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewVector/Vector.h" root0="FORCE_HIGHLIGHTING" />
@@ -451,6 +457,38 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LC_Count_Number_of_Pairs_With_Absolute_Difference_K" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Count_Number_of_Pairs_With_Absolute_Difference_K/LC_Count_Number_of_Pairs_With_Absolute_Difference_K.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Count_Number_of_Pairs_With_Absolute_Difference_K/LC_Count_Number_of_Pairs_With_Absolute_Difference_K.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_Count_the_Number_of_Consistent_Strings" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Count_the_Number_of_Consistent_Strings/LC_Count_the_Number_of_Consistent_Strings.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Count_the_Number_of_Consistent_Strings/LC_Count_the_Number_of_Consistent_Strings.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_Decode_the_Message" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Decode_the_Message/LC_Decode_the_Message.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Decode_the_Message/LC_Decode_the_Message.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_Find_Common_Elements_Between_Two_Arrays" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LC_First_Unique_Char_String" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -807,6 +845,22 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LC_Number_of_Good_Pairs" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Number_of_Good_Pairs/LC_Number_of_Good_Pairs.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Number_of_Good_Pairs/LC_Number_of_Good_Pairs.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_Permutation_Difference_between_Two_Strings" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Permutation_Difference_between_Two_Strings/LC_Permutation_Difference_between_Two_Strings.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Permutation_Difference_between_Two_Strings/LC_Permutation_Difference_between_Two_Strings.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LC_RemoveDuplicatesFromList" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -1038,6 +1092,22 @@
       </configuration_1>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_Sort_the_People" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Sort_the_People/LC_Sort_the_People.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Sort_the_People/LC_Sort_the_People.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_The_Two_Sneaky_Numbers_of_Digitville" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_The_Two_Sneaky_Numbers_of_Digitville/LC_The_Two_Sneaky_Numbers_of_Digitville.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_The_Two_Sneaky_Numbers_of_Digitville/LC_The_Two_Sneaky_Numbers_of_Digitville.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
@@ -1348,7 +1418,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ Project.LC_Decode_the_Message" />
+      <item itemvalue="C/C++ Project.LC_Find_Common_Elements_Between_Two_Arrays" />
+      <item itemvalue="C/C++ Project.LC_Permutation_Difference_between_Two_Strings" />
+      <item itemvalue="C/C++ Project.LC_Sort_the_People" />
+      <item itemvalue="C/C++ Project.LC_Count_Number_of_Pairs_With_Absolute_Difference_K" />
+      <item itemvalue="C/C++ Project.LC_Count_the_Number_of_Consistent_Strings" />
+      <item itemvalue="C/C++ Project.LC_Number_of_Good_Pairs" />
       <item itemvalue="C/C++ Project.LC_Restore_Finishing_Order" />
+      <item itemvalue="C/C++ Project.LC_The_Two_Sneaky_Numbers_of_Digitville" />
       <item itemvalue="C/C++ Project.Hash_Table" />
       <item itemvalue="C/C++ Project.BigInteger" />
       <item itemvalue="C/C++ Project.CastOptions" />
@@ -1422,7 +1500,9 @@
       <workItem from="1760512636747" duration="3809000" />
       <workItem from="1760630758490" duration="2534000" />
       <workItem from="1760940217482" duration="9368000" />
-      <workItem from="1761025324498" duration="725000" />
+      <workItem from="1761025324498" duration="6905000" />
+      <workItem from="1761126498317" duration="707000" />
+      <workItem from="1761127824704" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1672,7 +1752,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760947469499</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="LC_restoreorder">
+      <option name="closed" value="true" />
+      <created>1761026161370</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1761026161370</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1693,7 +1781,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="LC-06" />
     <MESSAGE value="LC-07" />
     <MESSAGE value="Started Vector" />
     <MESSAGE value="MyVector" />
@@ -1718,18 +1805,8 @@
     <MESSAGE value="da" />
     <MESSAGE value="NewVector is now Vector&#10;.h, .cpp, main.cpp" />
     <MESSAGE value="hash_map" />
-    <option name="LAST_COMMIT_MESSAGE" value="hash_map" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Hash_Table/hash_map.h</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="LC_restoreorder" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC_restoreorder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

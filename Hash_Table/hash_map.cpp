@@ -50,7 +50,7 @@ bool hash_map::insert(int value)
     return true;
 }
 
-bool hash_map::find(int value)
+bool hash_map::find(int value) const
 {
     std::hash<int> int_hash; 
     size_t index = int_hash(value); //хешируем валью, чтобы узнать индекс

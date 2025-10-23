@@ -47,7 +47,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1512,7 +1512,8 @@
       <workItem from="1760940217482" duration="9368000" />
       <workItem from="1761025324498" duration="6905000" />
       <workItem from="1761126498317" duration="707000" />
-      <workItem from="1761127824704" duration="2331000" />
+      <workItem from="1761127824704" duration="3658000" />
+      <workItem from="1761212507233" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1778,7 +1779,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761129925877</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="LC">
+      <option name="closed" value="true" />
+      <created>1761132069650</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1761132069650</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

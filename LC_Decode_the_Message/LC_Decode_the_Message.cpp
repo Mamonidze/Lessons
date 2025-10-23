@@ -1,10 +1,10 @@
-#include <map>
 #include <string>
+#include <unordered_map>
 
 class Solution {
 public:
     std::string decodeMessage(std::string key, std::string message) {
-        std::map<char, char> map;
+        std::unordered_map<char, char> map;
         std::string result{};
         char c = 'a';
         for(char ch : key)

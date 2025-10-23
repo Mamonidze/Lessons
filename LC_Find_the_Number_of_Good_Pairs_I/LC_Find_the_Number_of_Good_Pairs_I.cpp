@@ -4,6 +4,7 @@ class Solution {
 public:
     int numberOfPairs(std::vector<int>& nums1, std::vector<int>& nums2, int k) {
         std::unordered_map<int, int> map{};
+        
         int counter{0};
 
         for (int i = 0; i < nums2.size(); ++i)

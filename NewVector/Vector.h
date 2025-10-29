@@ -1,23 +1,29 @@
 #pragma once
 #include <iostream>
 
+
+template<typename T>
 class Vector
 {
-    int* data;
+    T* data;
     size_t size;
     size_t capacity;
 public:
     Vector(); //default constructor
     Vector(const size_t n);
 
-    int& operator[](size_t index);
-    int& operator[](size_t index) const;
-    friend std::ostream& operator<<(std::ostream& os, const Vector& vec);
+    T& operator[](size_t index);
+    T& operator[](size_t index) const;
+
+    template<typename U>
+    friend std::ostream& operator<<(std::ostream& os, const Vector<U>& vec);
     
-    void push_back(int x);
+    void push_back(const T& x);
     void pop_back();
-    void insert(size_t position, int element);
+    void insert(size_t position, const T& element);
     void erase(size_t position);
 
     ~Vector();
 };
+
+#include "Vector.hpp"

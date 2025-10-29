@@ -1,6 +1,7 @@
-#include "Vector.h"
+#pragma once
 
-Vector::Vector ()
+template<typename T>
+Vector<T>::Vector ()
 {
     data = nullptr;
     size = 0;
@@ -8,13 +9,15 @@ Vector::Vector ()
     std::cout << "Default constructor" << '\n'; //DEBUG
 }
 
-Vector::Vector(const size_t n) : size(n), capacity(n)
+template<typename T>
+Vector<T>::Vector(const size_t n) : size(n), capacity(n)
 {
-    data = new int[n]; //create new empty vector
+    data = new T[n]; //create new empty vector
     std::cout << "Size Constructor" << '\n'; //DEBUG
 }
 
-int& Vector::operator[](size_t index)
+template<typename T>
+T& Vector<T>::operator[](size_t index)
 {
     if (index >= size)
     {
@@ -23,7 +26,8 @@ int& Vector::operator[](size_t index)
     return data[index];
 }
 
-int& Vector::operator[](size_t index) const
+template<typename T>
+T& Vector<T>::operator[](size_t index) const
 {
     if (index >= size)
     {
@@ -32,13 +36,14 @@ int& Vector::operator[](size_t index) const
     return data[index];
 }
 
-void Vector::push_back(int x)
+template<typename T>
+void Vector<T>::push_back(const T& x)
 {
     if (size == capacity)
     {
         constexpr int multiplier{2};
         const size_t new_capacity = capacity * multiplier; // new capacity
-        int* new_data = new int[new_capacity]; //new array for copying old array + 1
+        T* new_data = new T[new_capacity]; //new array for copying old array + 1
 
         for (size_t i = 0; i < size; i++)
         {
@@ -52,16 +57,18 @@ void Vector::push_back(int x)
     size++; // increase size
 }
 
-void Vector::pop_back()
+template<typename T>
+void Vector<T>::pop_back()
 {
     if (size != 0)
     {
-        data[size] = 0;
+        data[size-1].~T();
         size--;
     }
 }
 
-void Vector::insert(size_t position, int element)
+template<typename T>
+void Vector<T>::insert(size_t position, const T& element)
 {
     if (position > size)
     {
@@ -72,7 +79,7 @@ void Vector::insert(size_t position, int element)
     {
         constexpr int multiplier{2};
         capacity *= multiplier;
-        int* new_data = new int[capacity]; // create new array for copying
+        T* new_data = new T[capacity]; // create new array for copying
         for (size_t i = 0; i < size; i++)
         {
             new_data[i] = data[i]; // copying from old arr to new arr
@@ -86,9 +93,11 @@ void Vector::insert(size_t position, int element)
     }
     data[position] = element;
     size++;
+
 }
 
-void Vector::erase(size_t position)
+template<typename T>
+void Vector<T>::erase(size_t position)
 {
     if (position >= size)
     {
@@ -99,14 +108,17 @@ void Vector::erase(size_t position)
         data[i] = data[i+1];
     }
     size--;
+
 }
 
-Vector::~Vector()
+template<typename T>
+Vector<T>::~Vector()
 {
     delete[] data;
 }
 
-std::ostream& operator<<(std::ostream& os, const Vector& vec) // << overload
+template<typename T>
+std::ostream& operator<<(std::ostream& os, const Vector<T>& vec)
 {
     for (size_t i = 0; i < vec.size; i++)
     {

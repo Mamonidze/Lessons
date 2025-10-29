@@ -27,11 +27,13 @@
     <projectFile>LC_Restore_Finishing_Order/LC_Restore_Finishing_Order.vcxproj</projectFile>
     <projectFile>LC_ReverseLinkedList/LC_ReverseLinkedList.vcxproj</projectFile>
     <projectFile>LC_Richest Customer Wealth/LC_Richest Customer Wealth.vcxproj</projectFile>
+    <projectFile>LC_Root_Equals_Sum_of_Children/LC_Root_Equals_Sum_of_Children.vcxproj</projectFile>
     <projectFile>LC_ShuffleTheArray/LC_ShuffleTheArray.vcxproj</projectFile>
     <projectFile>LC_SmallestIndexWithEqualValue/LC_SmallestIndexWithEqualValue.vcxproj</projectFile>
     <projectFile>LC_Sort_the_People/LC_Sort_the_People.vcxproj</projectFile>
     <projectFile>LC_The_Two_Sneaky_Numbers_of_Digitville/LC_The_Two_Sneaky_Numbers_of_Digitville.vcxproj</projectFile>
     <projectFile>LC_TwoSum/LC_TwoSum.vcxproj</projectFile>
+    <projectFile>LC_Univalued_Binary_Tree/LC_Univalued_Binary_Tree.vcxproj</projectFile>
     <projectFile>LC_find_all_missing_numbers/LC_find_all_missing_numbers.vcxproj</projectFile>
     <projectFile>Lessons/Lessons.vcxproj</projectFile>
     <projectFile>MyClasses/MyClasses.vcxproj</projectFile>
@@ -46,8 +48,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/NewVector/Vector.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/NewVector.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/NewVector.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/Vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/Vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/Vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/Cl.items.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/NewVector.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/NewVector.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/link.secondary.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/NewVector.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/NewVector.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/NewVector.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/NewVector.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +98,6 @@
     <setting file="file://C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/include/xhash" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Complex/Complex.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash_Table/hash_map.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/CPP/Lessons/Hash_Table/hash_map.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash_Table/hash_map.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash_Table/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -92,8 +113,10 @@
     <setting file="file://$PROJECT_DIR$/LC_Number_of_Good_Pairs/LC_Number_of_Good_Pairs.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Permutation_Difference_between_Two_Strings/LC_Permutation_Difference_between_Two_Strings.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Restore_Finishing_Order/LC_Restore_Finishing_Order.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Root_Equals_Sum_of_Children/LC_Root_Equals_Sum_of_Children.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Sort_the_People/LC_Sort_the_People.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_The_Two_Sneaky_Numbers_of_Digitville/LC_The_Two_Sneaky_Numbers_of_Digitville.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_Univalued_Binary_Tree/LC_Univalued_Binary_Tree.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_find_all_missing_numbers/LC_find_all_missing_numbers.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewVector/Vector.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NewVector/Vector.h" root0="FORCE_HIGHLIGHTING" />
@@ -147,9 +170,14 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;CppGeneralOptionsId&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;C++&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="C/C++ Project.Hash_Table">
+  <component name="RunManager" selected="C/C++ Project.NewVector">
     <configuration name="BigInteger" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -1066,6 +1094,14 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LC_Root_Equals_Sum_of_Children" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Root_Equals_Sum_of_Children/LC_Root_Equals_Sum_of_Children.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Root_Equals_Sum_of_Children/LC_Root_Equals_Sum_of_Children.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LC_ShuffleTheArray" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -1173,6 +1209,14 @@
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_TwoSum/LC_TwoSum.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_Univalued_Binary_Tree" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_Univalued_Binary_Tree/LC_Univalued_Binary_Tree.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_Univalued_Binary_Tree/LC_Univalued_Binary_Tree.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
@@ -1427,6 +1471,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ Project.LC_Root_Equals_Sum_of_Children" />
+      <item itemvalue="C/C++ Project.LC_Univalued_Binary_Tree" />
       <item itemvalue="C/C++ Project.LC_Decode_the_Message" />
       <item itemvalue="C/C++ Project.LC_Find_Common_Elements_Between_Two_Arrays" />
       <item itemvalue="C/C++ Project.LC_Find_the_Number_of_Good_Pairs_I" />
@@ -1513,7 +1559,11 @@
       <workItem from="1761025324498" duration="6905000" />
       <workItem from="1761126498317" duration="707000" />
       <workItem from="1761127824704" duration="3658000" />
-      <workItem from="1761212507233" duration="297000" />
+      <workItem from="1761212507233" duration="1081000" />
+      <workItem from="1761335091175" duration="722000" />
+      <workItem from="1761584084861" duration="486000" />
+      <workItem from="1761654306347" duration="297000" />
+      <workItem from="1761719174395" duration="7126000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1787,7 +1837,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761132069650</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="map uo">
+      <option name="closed" value="true" />
+      <created>1761212992052</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1761212992052</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1808,7 +1866,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Started Vector" />
     <MESSAGE value="MyVector" />
     <MESSAGE value="Remade Vector" />
     <MESSAGE value="deleted debug outputs" />
@@ -1833,7 +1890,8 @@
     <MESSAGE value="hash_map" />
     <MESSAGE value="LC_restoreorder" />
     <MESSAGE value="LC" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC" />
+    <MESSAGE value="map uo" />
+    <option name="LAST_COMMIT_MESSAGE" value="map uo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

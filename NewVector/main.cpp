@@ -1,17 +1,21 @@
 #include "Vector.h"
 #include <iostream>
-#include <stdexcept>
 
 int main()
 {
-    Vector Vector_DefaultConstruct;
+    Vector<int> int_vector(10);
+    int_vector.push_back(1);
+    std::cout << int_vector[10] << '\n'; //must be 1
+
+    Vector<std::string> string_vector(2);
+    string_vector.push_back("char1");
+    string_vector.push_back("char2");
+    for (int i = 2; i < 4; ++i)
+    {
+        std::cout << string_vector[i] << '\n';//must be char 1; char 2
+    }
     
-    Vector Vector_SizeConstruct(10);
-    
-    Vector Vector_PushBack(10);
-    Vector_PushBack.push_back(1);
-    
-    Vector Vector_Index(10);
+    Vector<float> Vector_Index(10);
     std::cout << Vector_Index[3] << '\n';
     try
     {
@@ -21,12 +25,9 @@ int main()
     {
         std::cout << "Error: " << e.what() << '\n';
     }
-
-    Vector Vector_PopBack(10);
-    Vector_PopBack.pop_back();
-
+    string_vector.pop_back();
     
-    Vector Vector_Insert(10);
+    Vector<int> Vector_Insert(10);
     try
     {
         Vector_Insert.insert(10, 1);
@@ -35,8 +36,9 @@ int main()
     {
         std::cerr << "Error:  " << e.what() << '\n';
     }
-
-    Vector Vector_Erase(10);
+    
+    
+    Vector<int> Vector_Erase(10);
     try
     {
         Vector_Erase.erase(11);
@@ -45,8 +47,10 @@ int main()
     {
         std::cout << "Error: " << e.what() << '\n';
     }
-
-    Vector Vector_Output(5);
+    
+    Vector<std::string> Vector_Output(1);
+    Vector_Output.push_back("string 1");
+    Vector_Output.push_back("string 2");
     std::cout << "Vector output" << Vector_Output << '\n';
 
     return 0;

@@ -47,28 +47,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hash_Table/hash_map.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/hash_map.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/hash_map.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/hash_map.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/Cl.items.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.secondary.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Hash_Table.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Hash_Table.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Hash_Table.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Hash_Table.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,54 +107,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "C++ Project.BigInteger.executor": "Run",
-    "C++ Project.Complex.executor": "Run",
-    "C++ Project.LC_Missing_Number.executor": "Debug",
-    "C++ Project.MyList.executor": "Run",
-    "C++ Project.MyString.executor": "Run",
-    "C++ Project.MyVector.executor": "Run",
-    "C++ Project.RoundToInt.executor": "Run",
-    "C++ Project.Tamagochi.executor": "Run",
-    "C/C++ Project.BigInteger.executor": "Run",
-    "C/C++ Project.CastOptions.executor": "Run",
-    "C/C++ Project.Complex.executor": "Run",
-    "C/C++ Project.Hash_Table.executor": "Run",
-    "C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor": "Run",
-    "C/C++ Project.LC_ConcatenationOfArray.executor": "Run",
-    "C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor": "Run",
-    "C/C++ Project.LC_IntersectionofTwoArrays.executor": "Run",
-    "C/C++ Project.LC_Richest Customer Wealth.executor": "Run",
-    "C/C++ Project.LC_ShuffleTheArray.executor": "Run",
-    "C/C++ Project.LC_SmallestIndexWithEqualValue.executor": "Debug",
-    "C/C++ Project.MyClasses.executor": "Run",
-    "C/C++ Project.MyList.executor": "Run",
-    "C/C++ Project.MyString.executor": "Run",
-    "C/C++ Project.MyVector.executor": "Run",
-    "C/C++ Project.NewVector.executor": "Run",
-    "C/C++ Project.RoundToInt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CppGeneralOptionsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.Complex.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.LC_Missing_Number.executor&quot;: &quot;Debug&quot;,
+    &quot;C++ Project.MyList.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.MyString.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
+    &quot;C++ Project.Tamagochi.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.BigInteger.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.CastOptions.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.Complex.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.Hash_Table.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_ConcatenationOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_IntersectionofTwoArrays.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_Richest Customer Wealth.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_ShuffleTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.LC_SmallestIndexWithEqualValue.executor&quot;: &quot;Debug&quot;,
+    &quot;C/C++ Project.MyClasses.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.MyList.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.MyString.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.MyVector.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.NewVector.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ Project.RoundToInt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CppGeneralOptionsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "C++"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;C++&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C/C++ Project.Hash_Table">
     <configuration name="BigInteger" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -1563,7 +1542,7 @@
       <workItem from="1761584084861" duration="486000" />
       <workItem from="1761654306347" duration="297000" />
       <workItem from="1761719174395" duration="7126000" />
-      <workItem from="1761728309950" duration="3761000" />
+      <workItem from="1761728309950" duration="4048000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1861,7 +1840,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761730863077</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="hash separated">
+      <option name="closed" value="true" />
+      <created>1761732289404</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1761732289404</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1882,7 +1869,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="deleted debug outputs" />
     <MESSAGE value="Updated MyString&#10;Added &lt;&lt; to Vector&#10;Added destructor to vector" />
     <MESSAGE value="Added Complex Class" />
     <MESSAGE value="BigInteger - +, &lt;&lt;" />
@@ -1907,7 +1893,8 @@
     <MESSAGE value="map uo" />
     <MESSAGE value="Vector separated - .h, .hpp, .cpp" />
     <MESSAGE value="list separated" />
-    <option name="LAST_COMMIT_MESSAGE" value="list separated" />
+    <MESSAGE value="hash separated" />
+    <option name="LAST_COMMIT_MESSAGE" value="hash separated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

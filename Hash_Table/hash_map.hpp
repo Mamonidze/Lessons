@@ -1,23 +1,25 @@
-#include "hash_map.h"
 
-
-hash_map::hash_map() : size(0)
+template<typename T>
+hash_map<T>::hash_map() : size(0)
 {
     set.reserve(default_size);
 }
 
-hash_map::hash_map(size_t size):size(size)
+template<typename T>
+hash_map<T>::hash_map(size_t size):size(size)
 {
     set.resize(size);
 }
 
-hash_map::hash_map(const hash_map& other)
+template<typename T>
+hash_map<T>::hash_map(const hash_map& other)
 {
     this->size = other.size;
     this->set  = other.set;
 }
 
-hash_map& hash_map::operator=(const hash_map& other)
+template<typename T>
+hash_map<T>& hash_map<T>::operator=(const hash_map& other)
 {
     if (this == &other)
     {
@@ -28,15 +30,16 @@ hash_map& hash_map::operator=(const hash_map& other)
     return *this;
 }
 
-bool hash_map::insert(int value)
+template<typename T>
+bool hash_map<T>::insert(const T& value)
 {
-    std::hash<int> int_hash; 
+    std::hash<T> int_hash; 
     size_t index = int_hash(value); //хешируем валью, чтобы узнать индекс
     if (index > this->set.size()) //если индекс больше сайза вектора - index&size (т.е. остаток)
     {
         index = index % this->set.size();
     }
-    std::list<int>& l = this->set[index];
+    std::list<T>& l = this->set[index];
     for (auto it = l.begin(); it != l.end(); ++it) //бежим по списку, который лежит под текущим индексом
     {
         if (*it == value) //если такое значение есть - фолс
@@ -50,15 +53,16 @@ bool hash_map::insert(int value)
     return true;
 }
 
-bool hash_map::find(int value) const
+template<typename T>
+bool hash_map<T>::find(const T& value) const 
 {
-    std::hash<int> int_hash; 
+    std::hash<T> int_hash; 
     size_t index = int_hash(value); //хешируем валью, чтобы узнать индекс
     if (index > this->set.size()) //если индекс больше сайза вектора - index&size (т.е. остаток)
     {
         index = index % this->set.size();
     }
-    std::list<int>& l = this->set[index];
+    const std::list<T>& l = this->set[index];
     for (auto it = l.begin(); it != l.end(); ++it) //бежим по списку, который лежит под текущим индексом
     {
         if (*it == value) 
@@ -69,15 +73,16 @@ bool hash_map::find(int value) const
     return false;
 }
 
-bool hash_map::erase(int value)
+template<typename T>
+bool hash_map<T>::erase(const T& value)
 {
-    std::hash<int> int_hash; 
+    std::hash<T> int_hash; 
     size_t index = int_hash(value); //хешируем валью, чтобы узнать индекс
     if (index > this->set.size()) //если индекс больше сайза вектора - index&size (т.е. остаток)
     {
         index = index % this->set.size();
     }
-    std::list<int>& l = this->set[index];
+    std::list<T>& l = this->set[index];
     for (auto it = l.begin(); it != l.end(); ++it) //бежим по списку, который лежит под текущим индексом
     {
         if (*it == value) 

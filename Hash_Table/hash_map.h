@@ -3,24 +3,11 @@
 #include <vector>
 
 
-/**
- * Пишем свой unordered_set 
- * конструкторы:
-- вектор из листов из интов
-- заранее известен размер, перевыделение только в случае плохого распределения
-- конструктор
-- конструктор копирования
-- оператор присваивания
-- деструктор
-- инсерт
-- файнд
-- эрейз
-- попробовать перевести на array
- */
+template<typename T>
 class hash_map
 {
     
-    std::vector<std::list<int>> set;
+    std::vector<std::list<T>> set;
     size_t size; //количество уникальных элементов
     const int default_size{1000}; //предвыделенный вектор
     
@@ -34,10 +21,12 @@ public:
     hash_map& operator=(const hash_map& other);
 
     //methods
-    bool insert(int value);
-    bool find(int value) const;
-    bool erase(int value);
+    bool insert(const T& value);
+    bool find(const T& value) const ;
+    bool erase(const T& value);
     
     //destructor
     ~hash_map() = default;
 };
+
+#include "hash_map.hpp"

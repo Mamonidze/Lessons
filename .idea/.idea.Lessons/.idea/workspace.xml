@@ -48,31 +48,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyList/List.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyList/List.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hash_Table/hash_map.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/MyList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/MyList.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/MyList.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/Cl.items.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/link.secondary.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/MyList.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyList/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/NewVector.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewVector/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NewVector/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/MyList.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyList.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/MyList.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/MyList.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/NewVector.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/NewVector.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/NewVector.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/NewVector.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/Hash_Table.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/hash_map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/hash_map.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/hash_map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/Cl.items.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.secondary.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/Hash_Table.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hash_Table/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Hash_Table.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Hash_Table.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Hash_Table.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Hash_Table.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +142,7 @@
     "C/C++ Project.BigInteger.executor": "Run",
     "C/C++ Project.CastOptions.executor": "Run",
     "C/C++ Project.Complex.executor": "Run",
-    "C/C++ Project.Hash_Table.executor": "Debug",
+    "C/C++ Project.Hash_Table.executor": "Run",
     "C/C++ Project.LC_ CheckIfTwoStringArraysareEquivalent.executor": "Run",
     "C/C++ Project.LC_ConcatenationOfArray.executor": "Run",
     "C/C++ Project.LC_CountPairsWhoseSumisLessthanTarget.executor": "Run",
@@ -181,7 +176,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ Project.MyList">
+  <component name="RunManager" selected="C/C++ Project.Hash_Table">
     <configuration name="BigInteger" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -1568,7 +1563,7 @@
       <workItem from="1761584084861" duration="486000" />
       <workItem from="1761654306347" duration="297000" />
       <workItem from="1761719174395" duration="7126000" />
-      <workItem from="1761728309950" duration="2515000" />
+      <workItem from="1761728309950" duration="3761000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1858,7 +1853,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761728361184</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="list separated">
+      <option name="closed" value="true" />
+      <created>1761730863077</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1761730863077</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1879,7 +1882,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Remade Vector" />
     <MESSAGE value="deleted debug outputs" />
     <MESSAGE value="Updated MyString&#10;Added &lt;&lt; to Vector&#10;Added destructor to vector" />
     <MESSAGE value="Added Complex Class" />
@@ -1904,7 +1906,8 @@
     <MESSAGE value="LC" />
     <MESSAGE value="map uo" />
     <MESSAGE value="Vector separated - .h, .hpp, .cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vector separated - .h, .hpp, .cpp" />
+    <MESSAGE value="list separated" />
+    <option name="LAST_COMMIT_MESSAGE" value="list separated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

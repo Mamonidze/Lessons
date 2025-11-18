@@ -17,8 +17,12 @@
     <projectFile>LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.vcxproj</projectFile>
     <projectFile>LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.vcxproj</projectFile>
     <projectFile>LC_First_Unique_Char_String/LC_First_Unique_Char_String.vcxproj</projectFile>
+    <projectFile>LC_HowManyNumbersAreSmallerThantheCurrentNumber/LC_HowManyNumbersAreSmallerThantheCurrentNumber.vcxproj</projectFile>
     <projectFile>LC_IntersectionofTwoArrays/LC_IntersectionofTwoArrays.vcxproj</projectFile>
+    <projectFile>LC_MaximumProductofTwoElementsinanArray/LC_MaximumProductofTwoElementsinanArray.vcxproj</projectFile>
     <projectFile>LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj</projectFile>
+    <projectFile>LC_MinimumAverageofSmallestandLargestElements/LC_MinimumAverageofSmallestandLargestElements.vcxproj</projectFile>
+    <projectFile>LC_MinimumNumberGame/LC_MinimumNumberGame.vcxproj</projectFile>
     <projectFile>LC_Missing_Number/LC_Missing_Number.vcxproj</projectFile>
     <projectFile>LC_N-Repeated_Element_in_Size_2N_Array/LC_N-Repeated_Element_in_Size_2N_Array.vcxproj</projectFile>
     <projectFile>LC_Number_of_Good_Pairs/LC_Number_of_Good_Pairs.vcxproj</projectFile>
@@ -51,6 +55,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33fc9c48-c14a-476f-973b-1a294bc37b16" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lessons/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC_Search_in_a_Binary_Search_Tree/LC_Search_in_a_Binary_Search_Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LC_Search_in_a_Binary_Search_Tree/LC_Search_in_a_Binary_Search_Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lessons.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +87,7 @@
     <setting file="file://$PROJECT_DIR$/Hash_Table/hash_map.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hash_Table/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ CheckIfTwoStringArraysareEquivalent/LC__CheckIfTwoStringArraysareEquivalent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_ Invert_Binary_Tree/LC_ Invert_Binary_Tree.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ Missing_Number/LC__Missing_Number.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_ConcatenationOfArray/LC_ConcatenationOfArray.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Count_Number_of_Pairs_With_Absolute_Difference_K/LC_Count_Number_of_Pairs_With_Absolute_Difference_K.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -89,7 +95,11 @@
     <setting file="file://$PROJECT_DIR$/LC_Decode_the_Message/LC_Decode_the_Message.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Find_Common_Elements_Between_Two_Arrays/LC_Find_Common_Elements_Between_Two_Arrays.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Find_the_Number_of_Good_Pairs_I/LC_Find_the_Number_of_Good_Pairs_I.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_HowManyNumbersAreSmallerThantheCurrentNumber/LC_HowManyNumbersAreSmallerThantheCurrentNumber.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_MaximumProductofTwoElementsinanArray/LC_MaximumProductofTwoElementsinanArray.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_MinimumAverageofSmallestandLargestElements/LC_MinimumAverageofSmallestandLargestElements.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LC_MinimumNumberGame/LC_MinimumNumberGame.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_N-Repeated_Element_in_Size_2N_Array/LC_N_Repeated_Element_in_Size_2N_Array.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Number_of_Good_Pairs/LC_Number_of_Good_Pairs.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LC_Permutation_Difference_between_Two_Strings/LC_Permutation_Difference_between_Two_Strings.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -573,6 +583,14 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LC_HowManyNumbersAreSmallerThantheCurrentNumber" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_HowManyNumbersAreSmallerThantheCurrentNumber/LC_HowManyNumbersAreSmallerThantheCurrentNumber.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_HowManyNumbersAreSmallerThantheCurrentNumber/LC_HowManyNumbersAreSmallerThantheCurrentNumber.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LC_IntersectionofTwoArrays" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -705,6 +723,14 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LC_MaximumProductofTwoElementsinanArray" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_MaximumProductofTwoElementsinanArray/LC_MaximumProductofTwoElementsinanArray.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MaximumProductofTwoElementsinanArray/LC_MaximumProductofTwoElementsinanArray.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="LC_MergeTwoSortedLists" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
         <option name="CONFIGURATION" value="Debug" />
@@ -756,6 +782,22 @@
       </configuration_4>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MergeTwoSortedLists/LC_MergeTwoSortedLists.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_MinimumAverageofSmallestandLargestElements" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_MinimumAverageofSmallestandLargestElements/LC_MinimumAverageofSmallestandLargestElements.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MinimumAverageofSmallestandLargestElements/LC_MinimumAverageofSmallestandLargestElements.vcxproj" />
+      <option name="AUTO_SELECT_PRIORITY" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LC_MinimumNumberGame" type="CppProject" factoryName="C++ Project">
+      <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/LC_MinimumNumberGame/LC_MinimumNumberGame.vcxproj" />
+      <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LC_MinimumNumberGame/LC_MinimumNumberGame.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="0" />
       <method v="2">
         <option name="Build" />
@@ -1470,6 +1512,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ Project.LC_MaximumProductofTwoElementsinanArray" />
+      <item itemvalue="C/C++ Project.LC_MinimumAverageofSmallestandLargestElements" />
+      <item itemvalue="C/C++ Project.LC_MinimumNumberGame" />
+      <item itemvalue="C/C++ Project.LC_HowManyNumbersAreSmallerThantheCurrentNumber" />
       <item itemvalue="C/C++ Project.LC_ Invert_Binary_Tree" />
       <item itemvalue="C/C++ Project.LC_Search_in_a_Binary_Search_Tree" />
       <item itemvalue="C/C++ Project.LC_Root_Equals_Sum_of_Children" />
@@ -1566,7 +1612,9 @@
       <workItem from="1761654306347" duration="297000" />
       <workItem from="1761719174395" duration="7126000" />
       <workItem from="1761728309950" duration="4048000" />
-      <workItem from="1761733600545" duration="1986000" />
+      <workItem from="1761733600545" duration="2786000" />
+      <workItem from="1763359612788" duration="3118000" />
+      <workItem from="1763445545674" duration="2485000" />
     </task>
     <task id="LOCAL-00001" summary="LC 01-02">
       <option name="closed" value="true" />
@@ -1880,7 +1928,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761733739037</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="LC">
+      <option name="closed" value="true" />
+      <created>1761736336868</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1761736336868</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1920,13 +1976,13 @@
     <MESSAGE value="NewVector is now Vector&#10;.h, .cpp, main.cpp" />
     <MESSAGE value="hash_map" />
     <MESSAGE value="LC_restoreorder" />
-    <MESSAGE value="LC" />
     <MESSAGE value="map uo" />
     <MESSAGE value="Vector separated - .h, .hpp, .cpp" />
     <MESSAGE value="list separated" />
     <MESSAGE value="hash separated" />
     <MESSAGE value="lc" />
-    <option name="LAST_COMMIT_MESSAGE" value="lc" />
+    <MESSAGE value="LC" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
